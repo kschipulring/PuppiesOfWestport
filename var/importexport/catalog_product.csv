@@ -1,0 +1,92 @@
+"_store","_attribute_set","websites","_type","_category","name","_root_category","description","short_description","born_on","gender","price","sku","sale_status","sale_date","status","weight","qty","min_qty","visibility","tax_class_id"
+,"Default","base","simple","aussie","aussie","dog"," "," ",10/20/16,"M",1900,1176,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","beag/shiba","beag/shiba","dog"," "," ",07/13/16,"M",750,1005,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","boston terrier","boston terrier","dog"," "," ",10/09/16,"F",2200,1157,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","boston terrier","boston terrier","dog"," "," ",10/17/16,"M",2200,1178,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","brussels","brussels","dog"," "," ",07/24/16,"M",1650,1023,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","bug","bug","dog"," "," ",10/04/16,"M",1900,1144,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","bug","bug","dog"," "," ",10/04/16,"F",1900,1145,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","cairn","cairn","dog"," "," ",09/09/16,"F",1700,1106,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","chihuahua","chihuahua","dog"," "," ",09/01/16,"M",1700,1095,"sold",12/29/16,1,1,0,0,4,0
+,"Default","base","simple","cock a poo","cock a poo","dog"," "," ",09/20/16,"F",1650,1124,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","cock a poo","cock a poo","dog"," "," ",09/20/16,"F",1650,1125,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","cocker spaniel","cocker spaniel","dog"," "," ",10/03/16,"F",1750,1154,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","corgi","corgi","dog"," "," ",07/25/16,"M",1500,1022,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","coton","coton","dog"," "," ",09/01/16,"M",1700,1093,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","coton","coton","dog"," "," ",10/20/16,"M",1700,1183,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","coton","coton","dog"," "," ",10/20/16,"F",1700,1184,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","english bulldog","english bulldog","dog"," "," ",08/11/16,"F",3150,1036,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","french bulldog","french bulldog","dog"," "," ",07/16/16,"M",3200,1017,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","french bulldog","french bulldog","dog"," "," ",08/14/16,"M",3500,1069,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","french bulldog","french bulldog","dog"," "," ",05/30/16,"M",2950,8381,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","german sheperd","german sheperd","dog"," "," ",09/23/16,"F",2000,1131,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","german sheperd","german sheperd","dog"," "," ",10/22/16,"M",2400,1175,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","german sheperd","german sheperd","dog"," "," ",10/20/16,"F",2400,1187,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","golden retriever","golden retriever","dog"," "," ",10/10/16,"F",1900,1158,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","golden retriever","golden retriever","dog"," "," ",10/06/16,"F",1900,1141,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","golden retriever","golden retriever","dog"," "," ",09/29/16,"F",1900,1150,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","havachon","havachon","dog"," "," ",08/07/16,"M",1500,1045,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","havanese","havanese","dog"," "," ",09/08/16,"M",1700,1112,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","havanese","havanese","dog"," "," ",09/20/16,"F",1700,1128,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","havanese","havanese","dog"," "," ",09/20/16,"F",1700,1129,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","havanese","havanese","dog"," "," ",09/29/16,"F",1700,1137,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","havanese","havanese","dog"," "," ",10/20/16,"F",2000,1180,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","havanese","havanese","dog"," "," ",10/20/16,"F",2000,1181,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","havapoo","havapoo","dog"," "," ",09/20/16,"M",1650,1122,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","havawheat","havawheat","dog"," "," ",09/08/16,"M",1550,1103,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","jack russel","jack russel","dog"," "," ",08/16/16,"M",1650,1054,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","jack russel","jack russel","dog"," "," ",08/16/16,"M",1650,1055,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","lab","lab","dog"," "," ",09/28/16,"F",1650,1151,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","lab","lab","dog"," "," ",10/16/16,"F",1850,1192,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","lab","lab","dog"," "," ",10/16/16,"F",1850,1193,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","lhasa poo ","lhasa poo ","dog"," "," ",07/02/16,"M",1600,8400,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","maltese","maltese","dog"," "," ",10/12/16,"M",1750,1168,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","maltese","maltese","dog"," "," ",10/12/16,"M",1750,1169,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","malti poo","malti poo","dog"," "," ",09/04/16,"M",1600,1102,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","malti poo","malti poo","dog"," "," ",10/19/16,"M",1950,1185,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","malti-shoo","malti-shoo","dog"," "," ",04/15/16,"M",700,8335,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","mini am shep","mini am shep","dog"," "," ",07/30/16,"F",1500,1026,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","mini aussie","mini aussie","dog"," "," ",10/10/16,"M",1900,1170,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","peke-a-poo","peke-a-poo","dog"," "," ",09/11/16,"M",1450,1115,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","pekingese","pekingese","dog"," "," ",10/09/16,"F",1650,1167,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","pomeranian","pomeranian","dog"," "," ",07/03/16,"M",1500,1021,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","pomeranian","pomeranian","dog"," "," ",09/26/16,"F",1850,1148,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","poodle","poodle","dog"," "," ",09/13/16,"M",1650,1116,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","poodle","poodle","dog"," "," ",09/13/16,"F",1650,1117,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","pug","pug","dog"," "," ",10/20/16,"M",1900,1191,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","puggle","puggle","dog"," "," ",08/03/16,"F",1300,1028,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","puggle","puggle","dog"," "," ",09/19/16,"F",1550,1127,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","puggle","puggle","dog"," "," ",10/04/16,"F",1550,1165,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","sheltie","sheltie","dog"," "," ",08/28/16,"M",1500,1079,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih poo","shih poo","dog"," "," ",09/15/16,"F",1550,1114,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih poo","shih poo","dog"," "," ",10/06/16,"M",1700,1138,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih poo","shih poo","dog"," "," ",10/06/16,"F",1700,1140,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih poo","shih poo","dog"," "," ",10/12/16,"M",1700,1179,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih poo","shih poo","dog"," "," ",07/17/16,"M",1450,1014,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih poo","shih poo","dog"," "," ",08/14/16,"F",1550,1060,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",08/08/16,"M",1450,1068,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",09/02/16,"M",1650,1080,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",09/02/16,"M",1650,1098,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",09/02/16,"M",1650,1099,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",09/23/16,"F",1700,1133,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",10/15/16,"M",1750,1172,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",10/15/16,"M",1750,1173,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",10/15/16,"F",1750,1174,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",10/17/16,"M",1750,1186,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","shorky","shorky","dog"," "," ",07/26/16,"F",1350,1031,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","siberian husky","siberian husky","dog"," "," ",08/08/16,"F",1900,1064,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","siberian husky","siberian husky","dog"," "," ",08/28/16,"F",2000,1092,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","siberian husky","siberian husky","dog"," "," ",10/05/16,"M",2100,1146,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","siberian husky","siberian husky","dog"," "," ",10/05/16,"F",2100,1147,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","siberian husky","siberian husky","dog"," "," ",10/12/16,"M",2150,1163,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","siberian husky","siberian husky","dog"," "," ",10/12/16,"F",2150,1164,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","teddy bear","teddy bear","dog"," "," ",08/10/16,"M",1550,1047,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","teddy bear","teddy bear","dog"," "," ",09/02/16,"M",1650,1081,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","tibetan terrier","tibetan terrier","dog"," "," ",10/20/16,"M",2200,1182,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","toy aussie","toy aussie","dog"," "," ",08/04/16,"F",1650,1041,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","vizsla","vizsla","dog"," "," ",09/08/16,"M",1950,1110,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","vizsla","vizsla","dog"," "," ",09/08/16,"F",1950,1156,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","wheaten","wheaten","dog"," "," ",10/12/16,"M",1900,1159,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","wheaten","wheaten","dog"," "," ",10/12/16,"M",1900,1160,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","wheaten","wheaten","dog"," "," ",10/12/16,"F",1900,1161,"for_sale",,1,1,1,0,4,0
+,"Default","base","simple","wheaten","wheaten","dog"," "," ",10/12/16,"F",1900,1162,"for_sale",,1,1,1,0,4,0

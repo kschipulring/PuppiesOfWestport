@@ -1,0 +1,9 @@
+<?php
+    $_product = $this->getProduct();
+    $callText = Mage::getResourceModel('catalog/product')->getAttributeRawValue($_product->getId(), 'naya_call_for_price_text', Mage::app()->getStore());
+    if($callText == ''){
+        $callText = $this->__('Call for price');
+    }
+    echo '<div class="price-box"><span class="regular-price"><span class="price">'.$callText.'</span></span></div>';
+?>
+

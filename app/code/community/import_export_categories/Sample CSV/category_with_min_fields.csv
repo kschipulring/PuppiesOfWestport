@@ -1,0 +1,5 @@
+store,category_name,is_active,include_in_navigation_menu,is_anchor
+default,Parent,1,1,1
+default,Parent1,1,1,1
+default,Parent1/child1,1,1,1
+default,Parent1/child1/child2,1,1,1
