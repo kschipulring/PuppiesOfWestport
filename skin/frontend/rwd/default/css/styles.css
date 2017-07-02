@@ -524,20 +524,20 @@ h1, .h1 {
   margin: 0;
   margin-bottom: 0.7em;
   color: #3399cc;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 28px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   text-rendering: optimizeLegibility;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 h2, .h2 {
   margin: 0;
   margin-bottom: 0.5em;
   color: #636363;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 24px;
   font-weight: 400;
   font-style: normal;
@@ -550,7 +550,7 @@ h3, .h3 {
   margin: 0;
   margin-bottom: 10px;
   color: #636363;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
@@ -563,7 +563,7 @@ h4, .h4 {
   margin: 0;
   margin-bottom: 10px;
   color: #636363;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
@@ -636,14 +636,13 @@ h6, .h6 {
 .page-title h2,
 .product-name h1,
 .product-name .h1 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 24px;
   font-weight: 600;
   color: #636363;
   border-bottom: 1px solid #ededed;
   padding-bottom: 3px;
   margin-bottom: 15px;
-  text-transform: uppercase;
 }
 
 /* -------------------------------------------- *
@@ -1120,7 +1119,7 @@ a.button:hover {
  */
 .icon-sprite, .btn-remove2, .ratings .rating-box, .ratings .rating-box .rating, .sorter > .sort-by .sort-by-switcher, .sorter > .view-mode .grid,
 .sorter > .view-mode .list, .skip-nav .icon, .skip-search .icon, #search_mini_form .search-button:before, .skip-account .icon, .skip-cart .icon, .product-view .sharing-links a, .review-summary-table .rating-box .rating-number:after, .ratings-table .rating-box, .ratings-table .rating-box .rating {
-  background-image: url(../images/icon_sprite.png);
+  background-image: url(../images/icon_sprite_e.png);
   background-repeat: no-repeat;
   text-indent: -9999px;
 }
@@ -1128,7 +1127,7 @@ a.button:hover {
 @media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 4 / 2), (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .icon-sprite, .btn-remove2, .ratings .rating-box, .ratings .rating-box .rating, .sorter > .sort-by .sort-by-switcher, .sorter > .view-mode .grid,
   .sorter > .view-mode .list, .skip-nav .icon, .skip-search .icon, #search_mini_form .search-button:before, .skip-account .icon, .skip-cart .icon, .product-view .sharing-links a, .review-summary-table .rating-box .rating-number:after, .ratings-table .rating-box, .ratings-table .rating-box .rating {
-    background-image: url(../images/icon_sprite@2x.png);
+    background-image: url(../images/icon_sprite_e@2x.png);
     background-size: 100px 1000px;
   }
 }
@@ -2049,12 +2048,12 @@ span.weee {
 }
 
 .std ul {
-  list-style: disc outside;
-  margin-bottom: 1.5em;
+  /*list-style: disc outside;
+  margin-bottom: 1.5em;*/
 }
 
 .std ul li {
-  margin-left: 2em;
+  /*margin-left: 2em;*/
 }
 
 .std .note {
@@ -2890,7 +2889,7 @@ form .form-instructions {
 .data-table th {
   background: #f4f4f4;
   text-transform: uppercase;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.4;
   white-space: nowrap;
 }
@@ -3150,7 +3149,7 @@ body {
   min-width: 320px;
   min-height: 100%;
   margin: 0 auto;
-  background: #FFFFFF;
+  background: #EDF6FF;
 }
 
 .wrapper:after {
@@ -3164,9 +3163,9 @@ body {
  * ============================================ */
 @media only screen and (min-width: 771px) {
   .page-header {
-    max-width: 1260px;
+    /*max-width: 1260px;*/
     margin: 0 auto;
-    padding: 0 30px;
+    /*padding: 0 30px;*/
   }
 
   .page-header-container {
@@ -3183,7 +3182,7 @@ body {
  * ============================================ */
 .header-language-background {
   padding: 10px;
-  background-color: #3399cc;
+  background-color: #edebd2;
   text-transform: uppercase;
 }
 .header-language-background .header-language-container {
@@ -3263,7 +3262,7 @@ body {
 
 @media only screen and (min-width: 771px) {
   .logo {
-    max-width: 300px;
+    /*max-width: 300px;*/
     min-height: 90px;
   }
   .logo .small {
@@ -3410,6 +3409,7 @@ a.skip-link {
   position: absolute;
   top: 0px;
   right: 0px;
+  display:none;
 }
 @media only screen and (max-width: 770px) {
   .account-cart-wrapper {
@@ -3470,18 +3470,25 @@ a.skip-link {
   .nav-primary {
     display: block;
     margin-top: 15px;
+    height:42px;
   }
 }
 /* ============================================ *
  * General Navigation Styles
  * ============================================ */
+ #header-nav{
+	background-color: #225f82;
+ }
+ .nav-primary{
+	 text-align:center;
+ }
 .nav-primary a {
   text-decoration: none;
   position: relative;
   display: block;
   color: #636363;
   line-height: 30px;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 .nav-primary li {
   position: relative;
@@ -3496,7 +3503,9 @@ a.skip-link {
 }
 
 .nav-primary li.level0 > a {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+  color:white;
+  font-size:12pt;
 }
 
 /* ============================================ *
@@ -3569,6 +3578,8 @@ a.skip-link {
   .nav-primary li.level0,
   .nav-primary a.level0 {
     display: inline-block;
+    margin: 0px 10px;
+    padding-top: 6px;
   }
   .nav-primary li:last-child > a {
     border-bottom: none;
@@ -3678,10 +3689,12 @@ a.skip-link {
 }
 
 #search {
-  width: 100%;
-  height: 40px;
-  padding-right: 40px;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+    width: 100%;
+    height: 35px;
+    padding-right: 40px;
+    font-family: 'Nunito', sans-serif;
+    border-color: black;
+    border-radius: 0px;
 }
 
 #search_mini_form .search-button {
@@ -3696,16 +3709,21 @@ a.skip-link {
 }
 
 #search_mini_form .search-button:before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 30px;
-  height: 30px;
-  margin-top: -15px;
-  margin-left: -15px;
-  background-position: 4px -146px;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 39px;
+    height: 33px;
+    margin-top: -19px;
+    margin-left: -20px;
+    background-position: -92px -143px;
+    background-color: #d3be34;
+    border-left: 1px solid black;
+    color: white!important;
+    border-radius: 0px;
 }
+
 
 #search_mini_form .search-button:hover:before {
   opacity: 0.8;
@@ -3912,7 +3930,7 @@ a.skip-link {
 /* Subtotal */
 .cart-menu .subtotal {
   padding: 0 15px 15px;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 24px;
   line-height: 1.2;
 }
@@ -3967,7 +3985,7 @@ a.skip-link {
  */
 .footer,
 .footer button {
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .footer {
@@ -4199,7 +4217,7 @@ p.product-name {
   margin: 0;
   margin-bottom: 0.5em;
   color: #636363;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 24px;
   font-weight: 400;
   font-style: normal;
@@ -4232,7 +4250,7 @@ p.product-name a:hover {
   text-transform: uppercase;
   margin-bottom: 5px;
   font-size: 14px;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 .products-grid .product-name a,
 .products-list .product-name a {
@@ -4274,6 +4292,10 @@ p.product-name a:hover {
 }
 .products-grid .product-image img:hidden {
   display: none;
+}
+
+.widget-new-products .widget-title h2{
+	display:none;
 }
 
 .widget-new-products .products-grid .product-image {
@@ -4655,7 +4677,7 @@ p.product-name a:hover {
   margin: 0;
   margin-bottom: 10px;
   color: #636363;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
@@ -4702,7 +4724,7 @@ p.product-name a:hover {
   margin: 0;
   margin-bottom: 10px;
   color: #636363;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
@@ -4898,7 +4920,7 @@ p.product-name a:hover {
   margin: 0;
   margin-bottom: 10px;
   color: #636363;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
@@ -5432,7 +5454,7 @@ p.product-name a:hover {
     margin: 0;
     margin-bottom: 10px;
     color: #636363;
-    font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 14px;
     font-weight: bold;
     font-style: normal;
@@ -5591,7 +5613,7 @@ p.product-name a:hover {
 
 .grouped-items-table .name-wrapper {
   color: #3399cc;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 .grouped-items-table .qty-wrapper {
   padding-top: 7px;
@@ -5819,7 +5841,7 @@ p.product-name a:hover {
   margin: 0;
   margin-bottom: 0.5em;
   color: #636363;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 24px;
   font-weight: 400;
   font-style: normal;
@@ -6305,7 +6327,7 @@ p.product-name a:hover {
   }
 }
 .cart-table {
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 .cart-table th,
 .cart-table td,
@@ -6323,7 +6345,7 @@ p.product-name a:hover {
 .cart-table tbody td {
   background-color: transparent;
   padding: 10px 5px;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 .cart-table .product-cart-info,
 .cart-table .product-cart-actions {
@@ -6344,7 +6366,7 @@ p.product-name a:hover {
   font-size: 9px;
   padding: 0 5px;
   text-transform: uppercase;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 .cart-table .product-cart-image .cart-links,
 .cart-table .product-cart-info .btn-remove,
@@ -6495,7 +6517,7 @@ p.product-name a:hover {
   .cart-table td[data-rwd-label]:before {
     content: attr(data-rwd-label) ":";
     font-size: 12px;
-    font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
     padding-right: 5px;
     text-transform: uppercase;
   }
@@ -6652,7 +6674,7 @@ p.product-name a:hover {
   margin-top: 4px;
 }
 .shipping .form-list label {
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -6672,7 +6694,7 @@ p.product-name a:hover {
   min-width: 100px;
 }
 .shipping .sp-methods label span {
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: bold;
   font-style: normal;
 }
@@ -6711,7 +6733,7 @@ p.product-name a:hover {
   clear: both;
 }
 .cart .cart-totals table {
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 12px;
   margin-bottom: 20px;
   text-transform: uppercase;

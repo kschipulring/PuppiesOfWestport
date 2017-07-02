@@ -634,6 +634,15 @@ abstract class Mage_Core_Block_Abstract extends Varien_Object
 
         $child = $this->getChild($name);
 
+        if( $name === "content" ){
+	        /*echo "<pre> child = ";
+	        var_dump($child);
+	        echo "</pre>";
+
+	        die("eat stew for");*/
+        }
+
+
         if (!$child) {
             $html = '';
         } else {

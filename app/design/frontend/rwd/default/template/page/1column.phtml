@@ -52,6 +52,18 @@
                 <?php echo $this->getChildHtml('breadcrumbs') ?>
                 <div class="col-main">
                     <?php echo $this->getChildHtml('global_messages') ?>
+
+				<?php
+
+				$pageID = Mage::getBlockSingleton('cms/page')->getPage()->getIdentifier();
+
+				//echo 'pageID = ' . $pageID . "<br/>";
+
+				if( $pageID === "home" ){
+					echo $this->getLayout()->createBlock('bannerslider/bannerslider')->setCategoryId('2')->setTemplate('bannerslider/bannerslider.phtml')->toHtml();
+				}
+				?>
+
                     <?php echo $this->getChildHtml('content') ?>
                 </div>
             </div>
