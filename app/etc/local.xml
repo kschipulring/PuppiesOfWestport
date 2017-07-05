@@ -36,14 +36,14 @@
         <disable_local_modules>false</disable_local_modules>
         <resources>
             <db>
-                <table_prefix><![CDATA[pup1_]]></table_prefix>
+                <table_prefix><![CDATA[pup2_]]></table_prefix>
             </db>
             <default_setup>
                 <connection>
-                    <host><![CDATA[db663574847.db.1and1.com]]></host>
-                    <username><![CDATA[dbo663574847]]></username>
+                    <host><![CDATA[db689161438.db.1and1.com]]></host>
+                    <username><![CDATA[dbo689161438]]></username>
                     <password><![CDATA[puppymasterdb456]]></password>
-                    <dbname><![CDATA[db663574847]]></dbname>
+                    <dbname><![CDATA[db689161438]]></dbname>
                     <active>1</active>
                 </connection>
             </default_setup>
