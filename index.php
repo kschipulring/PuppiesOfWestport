@@ -20,7 +20,7 @@
  *
  * @category    Mage
  * @package     Mage
- * @copyright  Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @copyright  Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
@@ -64,12 +64,6 @@ if (file_exists($maintenanceFile)) {
 require MAGENTO_ROOT . '/app/bootstrap.php';
 require_once $mageFilename;
 
-//echo "<pre>";
-
-//var_dump( get_defined_constants() );
-
-//die( "MAGENTO_ROOT = " . MAGENTO_ROOT . ", $mageFilename" . ", __FILE__ = " . __FILE__);
-
 #Varien_Profiler::enable();
 
 if (isset($_SERVER['MAGE_IS_DEVELOPER_MODE'])) {
@@ -86,13 +80,4 @@ $mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : ''
 /* Run store or run website */
 $mageRunType = isset($_SERVER['MAGE_RUN_TYPE']) ? $_SERVER['MAGE_RUN_TYPE'] : 'store';
 
-
-
-
 Mage::run($mageRunCode, $mageRunType);
-
-
-//$connection = Mage::getSingleton('core/resource');
-/*$cpei = Mage::getSingleton('core/resource')->getTableName('customer_entity');
-
-echo $cpei;*/

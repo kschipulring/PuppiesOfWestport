@@ -20,7 +20,7 @@
  *
  * @category    Mage
  * @package     Mage_Core
- * @copyright  Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @copyright  Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
@@ -633,15 +633,6 @@ abstract class Mage_Core_Block_Abstract extends Varien_Object
         }
 
         $child = $this->getChild($name);
-
-        if( $name === "content" ){
-	        /*echo "<pre> child = ";
-	        var_dump($child);
-	        echo "</pre>";
-
-	        die("eat stew for");*/
-        }
-
 
         if (!$child) {
             $html = '';

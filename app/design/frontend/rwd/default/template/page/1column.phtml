@@ -20,7 +20,7 @@
  *
  * @category    design
  * @package     rwd_default
- * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @copyright   Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
@@ -52,18 +52,6 @@
                 <?php echo $this->getChildHtml('breadcrumbs') ?>
                 <div class="col-main">
                     <?php echo $this->getChildHtml('global_messages') ?>
-
-				<?php
-
-				$pageID = Mage::getBlockSingleton('cms/page')->getPage()->getIdentifier();
-
-				//echo 'pageID = ' . $pageID . "<br/>";
-
-				if( $pageID === "home" ){
-					echo $this->getLayout()->createBlock('bannerslider/bannerslider')->setCategoryId('2')->setTemplate('bannerslider/bannerslider.phtml')->toHtml();
-				}
-				?>
-
                     <?php echo $this->getChildHtml('content') ?>
                 </div>
             </div>

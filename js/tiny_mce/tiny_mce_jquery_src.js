@@ -1456,7 +1456,7 @@ tinymce.util.Quirks = function(editor) {
 		editor.addCommand('Delete', function() {removeMergedFormatSpans();});
 	};
 	
-	function emptyEditorWhenDeleting() {
+	function emptyEditorWhenDeleting() {
 		function serializeRng(rng) {
 			var body = dom.create("body");
 			var contents = rng.cloneContents();

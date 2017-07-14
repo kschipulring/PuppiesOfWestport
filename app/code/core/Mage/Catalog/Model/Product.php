@@ -20,7 +20,7 @@
  *
  * @category    Mage
  * @package     Mage_Catalog
- * @copyright  Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @copyright  Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
@@ -1443,6 +1443,24 @@ class Mage_Catalog_Model_Product extends Mage_Catalog_Model_Abstract
     {
         return $this->getUrlModel()->getUrlPath($this, $category);
     }
+
+    /**
+     * get all data for this product
+     *
+     * @param void
+     * @return array
+     */
+    public function returnAllData(){
+        return $this->_data;
+    }
+
+    public function getBirthday(){
+        $date = date_create($this->_data["born_on"]);
+
+        return date_format($date,"d-m-Y");
+        ///return $this->_data["born_on"];
+    }
+
 
     /**
      * Save current attribute with code $code and assign new value

@@ -1,92 +1,213 @@
-"_store","_attribute_set","websites","_type","_category","name","_root_category","description","short_description","born_on","gender","price","sku","sale_status","sale_date","status","weight","qty","min_qty","visibility","tax_class_id"
-,"Default","base","simple","aussie","aussie","dog"," "," ",10/20/16,"M",1900,1176,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","beag/shiba","beag/shiba","dog"," "," ",07/13/16,"M",750,1005,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","boston terrier","boston terrier","dog"," "," ",10/09/16,"F",2200,1157,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","boston terrier","boston terrier","dog"," "," ",10/17/16,"M",2200,1178,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","brussels","brussels","dog"," "," ",07/24/16,"M",1650,1023,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","bug","bug","dog"," "," ",10/04/16,"M",1900,1144,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","bug","bug","dog"," "," ",10/04/16,"F",1900,1145,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","cairn","cairn","dog"," "," ",09/09/16,"F",1700,1106,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","chihuahua","chihuahua","dog"," "," ",09/01/16,"M",1700,1095,"sold",12/29/16,1,1,0,0,4,0
-,"Default","base","simple","cock a poo","cock a poo","dog"," "," ",09/20/16,"F",1650,1124,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","cock a poo","cock a poo","dog"," "," ",09/20/16,"F",1650,1125,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","cocker spaniel","cocker spaniel","dog"," "," ",10/03/16,"F",1750,1154,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","corgi","corgi","dog"," "," ",07/25/16,"M",1500,1022,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","coton","coton","dog"," "," ",09/01/16,"M",1700,1093,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","coton","coton","dog"," "," ",10/20/16,"M",1700,1183,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","coton","coton","dog"," "," ",10/20/16,"F",1700,1184,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","english bulldog","english bulldog","dog"," "," ",08/11/16,"F",3150,1036,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","french bulldog","french bulldog","dog"," "," ",07/16/16,"M",3200,1017,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","french bulldog","french bulldog","dog"," "," ",08/14/16,"M",3500,1069,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","french bulldog","french bulldog","dog"," "," ",05/30/16,"M",2950,8381,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","german sheperd","german sheperd","dog"," "," ",09/23/16,"F",2000,1131,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","german sheperd","german sheperd","dog"," "," ",10/22/16,"M",2400,1175,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","german sheperd","german sheperd","dog"," "," ",10/20/16,"F",2400,1187,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","golden retriever","golden retriever","dog"," "," ",10/10/16,"F",1900,1158,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","golden retriever","golden retriever","dog"," "," ",10/06/16,"F",1900,1141,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","golden retriever","golden retriever","dog"," "," ",09/29/16,"F",1900,1150,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","havachon","havachon","dog"," "," ",08/07/16,"M",1500,1045,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","havanese","havanese","dog"," "," ",09/08/16,"M",1700,1112,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","havanese","havanese","dog"," "," ",09/20/16,"F",1700,1128,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","havanese","havanese","dog"," "," ",09/20/16,"F",1700,1129,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","havanese","havanese","dog"," "," ",09/29/16,"F",1700,1137,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","havanese","havanese","dog"," "," ",10/20/16,"F",2000,1180,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","havanese","havanese","dog"," "," ",10/20/16,"F",2000,1181,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","havapoo","havapoo","dog"," "," ",09/20/16,"M",1650,1122,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","havawheat","havawheat","dog"," "," ",09/08/16,"M",1550,1103,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","jack russel","jack russel","dog"," "," ",08/16/16,"M",1650,1054,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","jack russel","jack russel","dog"," "," ",08/16/16,"M",1650,1055,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","lab","lab","dog"," "," ",09/28/16,"F",1650,1151,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","lab","lab","dog"," "," ",10/16/16,"F",1850,1192,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","lab","lab","dog"," "," ",10/16/16,"F",1850,1193,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","lhasa poo ","lhasa poo ","dog"," "," ",07/02/16,"M",1600,8400,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","maltese","maltese","dog"," "," ",10/12/16,"M",1750,1168,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","maltese","maltese","dog"," "," ",10/12/16,"M",1750,1169,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","malti poo","malti poo","dog"," "," ",09/04/16,"M",1600,1102,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","malti poo","malti poo","dog"," "," ",10/19/16,"M",1950,1185,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","malti-shoo","malti-shoo","dog"," "," ",04/15/16,"M",700,8335,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","mini am shep","mini am shep","dog"," "," ",07/30/16,"F",1500,1026,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","mini aussie","mini aussie","dog"," "," ",10/10/16,"M",1900,1170,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","peke-a-poo","peke-a-poo","dog"," "," ",09/11/16,"M",1450,1115,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","pekingese","pekingese","dog"," "," ",10/09/16,"F",1650,1167,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","pomeranian","pomeranian","dog"," "," ",07/03/16,"M",1500,1021,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","pomeranian","pomeranian","dog"," "," ",09/26/16,"F",1850,1148,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","poodle","poodle","dog"," "," ",09/13/16,"M",1650,1116,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","poodle","poodle","dog"," "," ",09/13/16,"F",1650,1117,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","pug","pug","dog"," "," ",10/20/16,"M",1900,1191,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","puggle","puggle","dog"," "," ",08/03/16,"F",1300,1028,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","puggle","puggle","dog"," "," ",09/19/16,"F",1550,1127,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","puggle","puggle","dog"," "," ",10/04/16,"F",1550,1165,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","sheltie","sheltie","dog"," "," ",08/28/16,"M",1500,1079,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih poo","shih poo","dog"," "," ",09/15/16,"F",1550,1114,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih poo","shih poo","dog"," "," ",10/06/16,"M",1700,1138,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih poo","shih poo","dog"," "," ",10/06/16,"F",1700,1140,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih poo","shih poo","dog"," "," ",10/12/16,"M",1700,1179,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih poo","shih poo","dog"," "," ",07/17/16,"M",1450,1014,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih poo","shih poo","dog"," "," ",08/14/16,"F",1550,1060,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",08/08/16,"M",1450,1068,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",09/02/16,"M",1650,1080,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",09/02/16,"M",1650,1098,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",09/02/16,"M",1650,1099,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",09/23/16,"F",1700,1133,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",10/15/16,"M",1750,1172,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",10/15/16,"M",1750,1173,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",10/15/16,"F",1750,1174,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shih tzu","shih tzu","dog"," "," ",10/17/16,"M",1750,1186,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","shorky","shorky","dog"," "," ",07/26/16,"F",1350,1031,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","siberian husky","siberian husky","dog"," "," ",08/08/16,"F",1900,1064,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","siberian husky","siberian husky","dog"," "," ",08/28/16,"F",2000,1092,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","siberian husky","siberian husky","dog"," "," ",10/05/16,"M",2100,1146,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","siberian husky","siberian husky","dog"," "," ",10/05/16,"F",2100,1147,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","siberian husky","siberian husky","dog"," "," ",10/12/16,"M",2150,1163,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","siberian husky","siberian husky","dog"," "," ",10/12/16,"F",2150,1164,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","teddy bear","teddy bear","dog"," "," ",08/10/16,"M",1550,1047,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","teddy bear","teddy bear","dog"," "," ",09/02/16,"M",1650,1081,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","tibetan terrier","tibetan terrier","dog"," "," ",10/20/16,"M",2200,1182,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","toy aussie","toy aussie","dog"," "," ",08/04/16,"F",1650,1041,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","vizsla","vizsla","dog"," "," ",09/08/16,"M",1950,1110,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","vizsla","vizsla","dog"," "," ",09/08/16,"F",1950,1156,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","wheaten","wheaten","dog"," "," ",10/12/16,"M",1900,1159,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","wheaten","wheaten","dog"," "," ",10/12/16,"M",1900,1160,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","wheaten","wheaten","dog"," "," ",10/12/16,"F",1900,1161,"for_sale",,1,1,1,0,4,0
-,"Default","base","simple","wheaten","wheaten","dog"," "," ",10/12/16,"F",1900,1162,"for_sale",,1,1,1,0,4,0
+"sku","_store","_attribute_set","_type","_product_websites","name","description","short_description","price","special_price","special_from_date","special_to_date","cost","weight","manufacturer","meta_title","meta_keyword","meta_description","image","small_image","thumbnail","media_gallery","color","news_from_date","news_to_date","gallery","status","url_key","url_path","minimal_price","visibility","custom_design","custom_design_from","custom_design_to","custom_layout_update","page_layout","options_container","required_options","has_options","image_label","small_image_label","thumbnail_label","created_at","updated_at","country_of_manufacture","msrp_enabled","msrp_display_actual_price_type","msrp","tax_class_id","gift_message_available","is_imported","born_on","gender","sale_date","sale_status","naya_call_for_price_enable","naya_call_for_price_text","qty","min_qty","use_config_min_qty","is_qty_decimal","backorders","use_config_backorders","min_sale_qty","use_config_min_sale_qty","max_sale_qty","use_config_max_sale_qty","is_in_stock","notify_stock_qty","use_config_notify_stock_qty","manage_stock","use_config_manage_stock","stock_status_changed_auto","use_config_qty_increments","qty_increments","use_config_enable_qty_inc","enable_qty_increments","is_decimal_divided","_links_related_sku","_links_related_position","_links_crosssell_sku","_links_crosssell_position","_links_upsell_sku","_links_upsell_position","_associated_sku","_associated_default_qty","_associated_position","_tier_price_website","_tier_price_customer_group","_tier_price_qty","_tier_price_price","_group_price_website","_group_price_customer_group","_group_price_price","_media_attribute_id","_media_image","_media_lable","_media_position","_media_is_disabled"
+1176,,"Default","simple",,"aussie"," "," ",1900,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/20/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1005,,"Default","simple",,"beag/shiba"," "," ",750,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,07/13/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1157,,"Default","simple",,"boston terrier"," "," ",2200,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/09/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1178,,"Default","simple",,"boston terrier"," "," ",2200,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/17/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1023,,"Default","simple","base","brussels"," brussels","brussels ",1650,,,,,1,,,,,"no_selection","no_selection","no_selection",,,,,,1,"brussels","brussels-10.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,06/09/17 12:49 AM,,"Use config","Use config",,0,,"Yes",07/24/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1144,,"Default","simple","base","bug"," bug "," bug",1900,,,,,1,,,,,"no_selection","no_selection","no_selection",,,,,,1,"bug","bug-12.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:46 AM,,"Use config","Use config",,0,,"No",10/04/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,1,0,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"bug-16.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1145,,"Default","simple","base","bug","bug","bug",1900,,,,,1,,,,,"/1/1/1145_bugs.jpg","/1/1/1145_bugs.jpg","/1/1/1145_bugs.jpg",,,,,,1,"bug","bug-13.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 07:55 PM,,"Use config","Use config",,0,,"Yes",10/04/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1145_bugs.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"bug.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1106,,"Default","simple","base","cairn","cairn ","cairn ",1700,,,,,1,,,,,"/1/1/1106_carin-terrier.jpg","/1/1/1106_carin-terrier.jpg","/1/1/1106_carin-terrier.jpg",,,,,,1,"cairn","cairn-13.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 09:54 AM,,"Use config","Use config",,0,,"No",09/09/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1106_carin-terrier.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"cairn-14.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1095,,"Default","simple","base","chihuahua"," General Appearance
+
+A graceful, alert, swift-moving compact little dog with saucy expression, and with terrier-like qualities of temperament
+
+Size, Proportion, Substance
+
+Weight – A well balanced little dog not to exceed 6 pounds. Proportion – The body is off-square; hence, slightly longer when measured from point of shoulder to point of buttocks, than height at the withers. Somewhat shorter bodies are preferred in males. Disqualification – Any dog over 6 pounds in weight.
+
+Head
+
+A well rounded ""apple dome"" skull, with or without molera. Expression – Saucy. Eyes - Full, round, but not protruding, balanced, set well apart-luminous dark or luminous ruby. Light eyes in blond or white-colored dogs permissible. Blue eyes or a difference in the color of the iris in the two eyes, or two different colors within one iris should be considered a serious fault. Ears – Large, erect type ears, held more upright when alert, but flaring to the sides at a 45 degree angle when in repose, giving breadth between the ears. Stop – Well defined. When viewed in profile, it forms a near 90 degree angle where muzzle joins skull. Muzzle – Moderately short, slightly pointed. Cheeks and jaws lean. Nose – Self-colored in blond types, or black. In moles, blues, and chocolates, they are self-colored. In blond types, pink noses permissible. Bite – Level or scissors. Overshot or undershot, or any distortion of the bite or jaw, should be penalized as a serious fault. A missing tooth or two is permissible. Disqualifications – Broken down or cropped ears.
+
+Neck, Topline, Body
+
+Neck – Slightly arched, gracefully sloping into lean shoulders. Topline – Level. Body – Ribs rounded and well sprung (but not too much ""barrel-shaped""). Tail – Moderately long, carried sickle either up or out, or in a loop over the back with tip just touching the back. (Never tucked between legs.) Disqualifications – Docked tail, bobtail.
+
+Forequarters
+
+Shoulders – Lean, sloping into a slightly broadening support above straight forelegs that set well under, giving free movement at the elbows. Shoulders should be well up, giving balance and soundness, sloping into a level back (never down or low). This gives a well developed chest and strength of forequarters. Feet – A small, dainty foot with toes well split up but not spread, pads cushioned. (Neither the hare nor the cat foot.) Dewclaws may be removed. Pasterns – Strong.
+
+Hindquarters
+
+Muscular, with hocks well apart, neither out nor in, well let down, firm and sturdy. Angulation – Should equal that of forequarters. The feet are as in front. Dewclaws may be removed.
+
+Coat
+
+In the Smooth Coats, the coat should be of soft texture, close and glossy. (Heavier coats with undercoats permissible.) Coat placed well over body with ruff on neck preferred, and more scanty on head and ears. Hair on tail preferred furry. In Long Coats, the coat should be of a soft texture, either flat or slightly wavy, with undercoat preferred. Ears – Fringed. Tail – Full and long (as a plume). Feathering on feet and legs, pants on hind legs and large ruff on the neck desired and preferred. (The Chihuahua should be groomed only to create a neat appearance.) Disqualification – In Long Coats, too thin coat that resembles bareness.
+
+Color
+
+Any color - Solid, marked or splashed.
+
+Gait
+
+The Chihuahua should move swiftly with a firm, sturdy action, with good reach in front equal to the drive from the rear. From the rear, the hocks remain parallel to each other, and the foot fall of the rear legs follows directly behind that of the forelegs. The legs, both front and rear, will tend to converge slightly toward a central line of gravity as speed increases. The side view shows good, strong drive in the rear and plenty of reach in the front, with head carried high. The topline should remain firm and the backline level as the dog moves.
+
+Temperament
+
+Alert, projecting the ‘terrier-like’ attitudes of self importance, confidence, self-reliance.
+
+Disqualifications
+
+Any dog over 6 pounds in weight. Broken down or cropped ears. Docked tail, bobtail. In Long Coats, too thin coat that resembles bareness."," A graceful, alert, swift-moving compact little dog with saucy expression, and with terrier-like qualities of temperament",1700,,,,,1,,,,,"/1/0/1095_chihuahua.jpg","/1/0/1095_chihuahua.jpg","/1/0/1095_chihuahua.jpg",,,,,,1,"chihuahua","chihuahua-14.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 02:41 AM,,"Use config","Use config",,0,,"No",09/01/16,"M",12/29/16 12:00 AM,"sold",1,,0,0,1,0,0,1,1,1,10000,1,0,1,1,1,1,1,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/0/1095_chihuahua.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"chihuahua-15.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1124,,"Default","simple","base","cock a poo"," cock a poo"," cock a poo",1650,,,,,1,,,,,"/1/1/1124_cock-a-poo1.jpg","/1/1/1124_cock-a-poo1.jpg","/1/1/1124_cock-a-poo1.jpg",,,,,,1,"cock-a-poo","cock-a-poo-16.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 09:14 PM,,"Use config","Use config",,0,,"No",09/20/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1124_cock-a-poo1.jpg",,1,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,80,"/1/1/1124_cock-a-poo2.jpg",,2,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"cock-a-poo-18.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1125,,"Default","simple","base","cock a poo","cock a poo "," cock a poo",1650,,,,,1,,,,,"/1/1/1125_cockapoo.jpg","/1/1/1125_cockapoo.jpg","/1/1/1125_cockapoo.jpg",,,,,,1,"cock-a-poo","cock-a-poo-17.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 07:30 PM,,"Use config","Use config",,0,,"No",09/20/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,1,0,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1125_cockapoo.jpg",,1,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"cock-a-poo.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1154,,"Default","simple","base","cocker spaniel"," cocker spaniel","cocker spaniel ",1750,,,,,1,,,,,"/1/1/1154_cocker.jpg","/1/1/1154_cocker.jpg","/1/1/1154_cocker.jpg",,,,,,1,"cocker-spaniel","cocker-spaniel-17.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 07:54 PM,,"Use config","Use config",,0,,"No",10/03/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1154_cocker.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"cocker-spaniel-18.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1022,,"Default","simple",,"corgi"," "," ",1500,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,07/25/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1093,,"Default","simple",,"coton"," "," ",1700,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,09/01/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1183,,"Default","simple",,"coton"," "," ",1700,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/20/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1184,,"Default","simple",,"coton"," "," ",1700,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/20/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1036,,"Default","simple",,"english bulldog"," "," ",3150,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,08/11/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1017,,"Default","simple",,"french bulldog"," "," ",3200,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,07/16/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1069,,"Default","simple",,"french bulldog"," "," ",3500,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,08/14/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+8381,,"Default","simple",,"french bulldog"," "," ",2950,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,05/30/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1131,,"Default","simple",,"german sheperd"," "," ",2000,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,09/23/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1175,,"Default","simple",,"german sheperd"," "," ",2400,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/22/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1187,,"Default","simple",,"german sheperd"," "," ",2400,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/20/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1158,,"Default","simple",,"golden retriever"," "," ",1900,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/10/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1141,,"Default","simple",,"golden retriever"," "," ",1900,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/06/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1150,,"Default","simple",,"golden retriever"," "," ",1900,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,09/29/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1045,,"Default","simple",,"havachon"," "," ",1500,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,08/07/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1112,,"Default","simple","base","havanese","havanese ","havanese ",1700,,,,,1,,,,,"/1/1/1112_havapoo.jpg","/1/1/1112_havapoo.jpg","/1/1/1112_havapoo.jpg",,,,,,1,"havanese","havanese-34.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 10:09 AM,,"Use config","Use config",,0,,"No",09/08/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1112_havapoo.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"havanese-36.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1128,,"Default","simple","base","havanese","Clubs, Registries & Associations
+
+American Canine Association
+Continental Kennel Club
+Universal Kennel Club International
+American Kennel Club
+United All Breed Registry
+America's Pet Registry, Inc.
+United Kennel Club
+(Based on breed recognition. See store for details on this particular puppy.)
+
+Group
+
+Toy
+
+Heritage
+
+The Havanese is the National Dog of Cuba, arriving there from Europe in the 17th century. A member of the Bichon family, the Havanese was known as the Havana Silk Dog and the Spanish Silk Poodle.
+
+Description
+
+Small, 8-11” at the shoulders, weighing anywhere from 7-14 pounds. The Havanese is a strong and sturdy little dog with a long (6-8”) double coat that comes in colors of white, cream, gold, brown, black, silver, blue, parti and tri-color. Both outer and under coats are soft and lightweight to ensure protection from the sun and as a cooling agent because this breed is from a tropical climate. This also means that this breed needs to be kept warm in cold temperatures, in spite of having a double coat.
+
+Health Awareness
+
+The Havanese Dog has a life expectancy of 14-16 years and is prone to hip dysplasia, eye issue, deafness, patellar luxation, and skin issues.
+
+Personality
+
+The Havanese is a gentle, devoted, affectionate, friendly and playful breed. Your Havanese is curious, observant, and highly intelligent. They are quick to learn what you teach them. They are also sensitive and harsh training methods will cause them to rebel. On the other hand, if you don’t exhibit leadership to your Havanese, they will attempt to give themselves their own leadership which can result behavior issues such as fear aggression. This breed needs a lot of early socialization, plus you need to be a calm, knowledgeable, and humane owner giving consistent and committed leadership to your Havanese using only motivational training methods. This breed can become shy and timid if not properly socialized, so be sure you give your Havanese plenty of socialization and allow him or her to be a dog and not a little human in a fur suit.
+
+Exercise/Energy Level
+
+The Havanese requires a daily walk or jog with off-leash play in a safe area. Get your veterinarian’s approval before exercising your Havanese in cold weather because this tropical breed does not do well in cold temperatures.
+
+Additional Information
+
+ Grooming Requirements:	 	Requires regular brushing and bathing
+ Coat:	Long and Silky
+ Shedding:	Light to no shedding
+ Hypoallergenic:	Yes
+ Apartment Living:	Good for apartment living if given sufficient exercise
+ Lap Dog:	Yes
+ Good With Children:	Good with all children when well socialized at an early age.
+ Good With Other Pets:	Generally good with other pets when well socialized at an early age
+"," The Havanese is the National Dog of Cuba, arriving there from Europe in the 17th century. A member of the Bichon family, the Havanese was known as the Havana Silk Dog and the Spanish Silk Poodle.",1700,,,,,7,,,,,"/1/1/1128_havanese.jpg","/1/1/1128_havanese.jpg","/1/1/1128_havanese.jpg",,,,,,1,"havanese","havanese-35.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 10:54 AM,,"Use config","Use config",,0,,"No",09/20/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1128_havanese.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"havanese-37.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1129,,"Default","simple",,"havanese"," "," ",1700,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,09/20/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1137,,"Default","simple",,"havanese"," "," ",1700,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,09/29/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1180,,"Default","simple",,"havanese"," "," ",2000,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/20/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1181,,"Default","simple",,"havanese"," "," ",2000,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/20/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1122,,"Default","simple","base","havapoo"," havapoo","havapoo ",1650,,,,,1,,,,,"/1/1/1122_havapoo.jpg","/1/1/1122_havapoo.jpg","/1/1/1122_havapoo.jpg",,,,,,1,"havapoo","havapoo-39.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 07:28 PM,,"Use config","Use config",,0,,"No",09/20/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1122_havapoo.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"havapoo-40.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1103,,"Default","simple","base","havawheat","havawheat ","havawheat ",1550,,,,,1,,,,,"/1/1/1103_havawheat.jpg","/1/1/1103_havawheat.jpg","/1/1/1103_havawheat.jpg",,,,,,1,"havawheat","havawheat-40.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 02:44 AM,,"Use config","Use config",,0,,"No",09/08/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1103_havawheat.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"havawheat-41.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1054,,"Default","simple",,"jack russel"," "," ",1650,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,08/16/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1055,,"Default","simple",,"jack russel"," "," ",1650,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,08/16/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1151,,"Default","simple",,"lab"," "," ",1650,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,09/28/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1192,,"Default","simple",,"lab"," "," ",1850,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/16/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1193,,"Default","simple",,"lab"," "," ",1850,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/16/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+8400,,"Default","simple",,"lhasa poo "," "," ",1600,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,07/02/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1168,,"Default","simple",,"maltese"," "," ",1750,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/12/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1169,,"Default","simple",,"maltese"," "," ",1750,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/12/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1102,,"Default","simple","base","malti poo","malti poo ","malti poo ",1600,,,,,1,,,,,"/1/1/1102_maltipoo.jpg","/1/1/1102_maltipoo.jpg","/1/1/1102_maltipoo.jpg",,,,,,1,"malti-poo","malti-poo-49.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 02:43 AM,,"Use config","Use config",,0,,"No",09/04/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1102_maltipoo.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"malti-poo-50.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1185,,"Default","simple",,"malti poo"," "," ",1950,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/19/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+8335,,"Default","simple",,"malti-shoo"," "," ",700,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,04/15/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1026,,"Default","simple",,"mini am shep"," "," ",1500,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,07/30/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1170,,"Default","simple","base","mini aussie"," mini aussie","mini aussie ",1900,,,,,1,,,,,"no_selection","no_selection","no_selection",,,,,,1,"mini-aussie","mini-aussie-53.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 07:56 PM,,"Use config","Use config",,0,,"No",10/10/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1170_mini-aussie.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"mini-aussie-54.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1115,,"Default","simple",,"peke-a-poo"," "," ",1450,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,09/11/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1167,,"Default","simple",,"pekingese"," "," ",1650,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/09/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1021,,"Default","simple",,"pomeranian"," "," ",1500,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,07/03/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1148,,"Default","simple",,"pomeranian"," "," ",1850,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,09/26/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1116,,"Default","simple",,"poodle"," "," ",1650,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,09/13/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1117,,"Default","simple",,"poodle"," "," ",1650,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,09/13/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1191,,"Default","simple",,"pug"," "," ",1900,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/20/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1028,,"Default","simple",,"puggle"," "," ",1300,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,08/03/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1127,,"Default","simple","base","puggle"," puggle","puggle ",1550,,,,,1,,,,,"/1/1/1127_puggle.jpg","/1/1/1127_puggle.jpg","/1/1/1127_puggle.jpg",,,,,,1,"puggle","puggle-62.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 07:25 PM,,"Use config","Use config",,0,,"No",09/19/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1127_puggle.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"puggle-63.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1165,,"Default","simple",,"puggle"," "," ",1550,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/04/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1079,,"Default","simple",,"sheltie"," "," ",1500,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,08/28/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1114,,"Default","simple","base","shih poo","shih poo ","shih poo ",1550,,,,,1,,,,,"/1/1/1114_shi-poo.jpg","/1/1/1114_shi-poo.jpg","/1/1/1114_shi-poo.jpg",,,,,,1,"shih-poo","shih-poo-67.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 10:11 AM,,"Use config","Use config",,0,,"No",09/15/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1114_shi-poo.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"shih-poo-69.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1138,,"Default","simple",,"shih poo"," "," ",1700,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/06/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1140,,"Default","simple","base","shih poo","shih poo ","shih poo ",1700,,,,,1,,,,,"/1/1/1140_shi-poo.jpg","/1/1/1140_shi-poo.jpg","/1/1/1140_shi-poo.jpg",,,,,,1,"shih-poo","shih-poo-68.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 07:53 PM,,"Use config","Use config",,0,,"No",10/06/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1140_shi-poo.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"shih-poo-70.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1179,,"Default","simple",,"shih poo"," sp"," cv",1700,,,,,1,,,,,"no_selection","no_selection","no_selection",,,,,,1,"shih-poo",,,4,"default/default",06/11/15 12:00 AM,06/11/20 12:00 AM,,"1 column","Block after Info Column",0,0,,,,01/10/17 08:17 AM,06/13/17 03:17 AM,,"Use config","Use config",,0,,"No",10/12/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1014,,"Default","simple",,"shih poo"," "," ",1450,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,07/17/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1060,,"Default","simple",,"shih poo"," "," ",1550,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,08/14/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1068,,"Default","simple",,"shih tzu"," "," ",1450,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,08/08/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1080,,"Default","simple","base","shih tzu","shi tzu w1080 "," shi tzu w1080",1650,,,,,1,,,,,"/1/0/1080_shitzu.jpg","/1/0/1080_shitzu.jpg","/1/0/1080_shitzu.jpg",,,,,,1,"shih-tzu","shih-tzu-72.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 02:38 AM,,"Use config","Use config",,0,,"No",09/02/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/0/1080_shitzu.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"shih-tzu-73.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1098,,"Default","simple",,"shih tzu"," "," ",1650,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,09/02/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1099,,"Default","simple",,"shih tzu"," "," ",1650,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,09/02/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1133,,"Default","simple",,"shih tzu"," "," ",1700,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,09/23/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1172,,"Default","simple",,"shih tzu"," "," ",1750,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/15/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1173,,"Default","simple",,"shih tzu"," "," ",1750,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/15/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1174,,"Default","simple",,"shih tzu"," "," ",1750,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/15/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1186,,"Default","simple",,"shih tzu"," "," ",1750,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/17/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1031,,"Default","simple",,"shorky"," "," ",1350,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,07/26/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1064,,"Default","simple",,"siberian husky"," "," ",1900,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,08/08/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1092,,"Default","simple",,"siberian husky"," "," ",2000,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,08/28/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1146,,"Default","simple",,"siberian husky"," "," ",2100,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/05/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1147,,"Default","simple",,"siberian husky"," "," ",2100,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/05/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1163,,"Default","simple",,"siberian husky"," "," ",2150,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/12/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1164,,"Default","simple",,"siberian husky"," "," ",2150,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/12/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1047,,"Default","simple",,"teddy bear"," "," ",1550,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,08/10/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1081,,"Default","simple","base","teddy bear","teddy bear ","teddy bear ",1650,,,,,1,,,,,"/1/0/1081_teddy-bear.jpg","/1/0/1081_teddy-bear.jpg","/1/0/1081_teddy-bear.jpg",,,,,,1,"teddy-bear","teddy-bear-90.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,06/14/17 02:19 AM,,"Use config","Use config",,0,,"No",09/02/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/0/1081_teddy-bear.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"teddy-bear-91.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1182,,"Default","simple",,"tibetan terrier"," "," ",2200,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/20/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1041,,"Default","simple",,"toy aussie"," "," ",1650,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,08/04/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1110,,"Default","simple","base","vizsla","vizsla ","vizsla ",1950,,,,,1,,,,,"/1/1/1110_vizsla.jpg","/1/1/1110_vizsla.jpg","/1/1/1110_vizsla.jpg",,,,,,1,"vizsla","vizsla-92.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 10:06 AM,,"Use config","Use config",,0,,"No",09/08/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1110_vizsla.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"vizsla-94.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1156,,"Default","simple","base","vizsla","vizsla ","vizsla ",1950,,,,,1,,,,,"/1/1/1156_vizsla.jpg","/1/1/1156_vizsla.jpg","/1/1/1156_vizsla.jpg",,,,,,1,"vizsla","vizsla-93.html",,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/11/17 07:22 PM,,"Use config","Use config",,0,,"No",09/08/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/1/1156_vizsla.jpg",,1,0
+,"default",,,,,,,,,,,,,,,,,,,,,,,,,,,"vizsla-95.html",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1159,,"Default","simple",,"wheaten"," "," ",1900,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/12/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1160,,"Default","simple",,"wheaten"," "," ",1900,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/12/16,"M",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1161,,"Default","simple",,"wheaten"," "," ",1900,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/12/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1162,,"Default","simple",,"wheaten"," "," ",1900,,,,,1,,,,,,,,,,,,,1,,,,4,,,,,,"Block after Info Column",0,0,,,,01/10/17 08:17 AM,01/10/17 08:17 AM,,"Use config","Use config",,0,,,10/12/16,"F",,"for_sale",1,,1,0,1,0,0,1,1,1,10000,1,1,1,1,1,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+3123,,"Default","simple",,"spuds","spuds","spud",23233,,,,,2,,,,,"no_selection","no_selection","no_selection",,,,,,1,"spuds",,,4,,,,,,"Block after Info Column",0,0,,,,01/12/17 08:35 PM,01/12/17 08:36 PM,,"Use config","Use config",,2,,"No",,"M",,,1,,0,0,1,0,0,1,1,1,0,1,0,,1,0,1,1,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1201,,"Default","simple",,"morky","morky","morky",1900,,,,,0,,,,,"/1/2/1201_morky.jpg","/1/2/1201_morky.jpg","/1/2/1201_morky.jpg",,,,,,1,"morky",,,4,,,,,,"Block after Info Column",0,0,,,,01/13/17 03:46 PM,01/13/17 03:49 PM,,"Use config","Use config",,2,,"No",11/07/16,"F",,,1,,0,0,1,0,0,1,1,1,0,1,0,,1,0,1,1,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/2/1201_morky.jpg",,1,0
+1202,,"Default","simple",,"morky","yorkie and maltese","morky",1900,,,,,0,,,,,"/1/2/1202_morky.jpg","/1/2/1202_morky.jpg","/1/2/1202_morky.jpg",,,,,,1,"morky",,,4,,,,,,"Block after Info Column",0,0,,,,01/13/17 03:58 PM,01/13/17 04:02 PM,,"Use config","Use config",,2,,"No",11/07/16,"F",,,1,,0,0,1,0,0,1,1,1,0,1,0,,1,0,1,1,1,0,1,0,0,,,,,,,,,,,,,,,,,80,"/1/2/1202_morky.jpg",,1,0
+1203,,"Default","simple",,"Shih Tzu","Shih Tzu","shih tzu",1750,,,,,0,,,,,"no_selection","no_selection","no_selection",,,,,,1,"shih-tzu",,,4,,,,,,"Block after Info Column",0,0,,,,01/13/17 04:08 PM,01/13/17 04:10 PM,,"Use config","Use config",,2,,"No",11/17/16,"F",,,1,,0,0,1,0,0,1,1,1,0,1,0,,1,0,1,1,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1205,,"Default","simple",,"Shih Tzu","Shih Tzu","shih tzu",1750,,,,,0,,,,,"no_selection","no_selection","no_selection",,,,,,1,"shih-tzu",,,4,,,,,,"Block after Info Column",0,0,,,,01/13/17 04:15 PM,01/13/17 04:16 PM,,"Use config","Use config",,2,,"No",11/09/16,"M",,,1,,0,0,1,0,0,1,1,1,0,1,0,,1,0,1,1,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1207,,"Default","simple",,"Toy Aussie","Toy Aussie","Toy Aussie",2000,,,,,0,,,,,"no_selection","no_selection","no_selection",,,,,,1,"toy-aussie",,,4,,,,,,"Block after Info Column",0,0,,,,01/13/17 04:19 PM,01/13/17 04:28 PM,,"Use config","Use config",,2,,"No",11/10/16,"M",,,1,"Visit or call store for price",0,0,1,0,0,1,1,1,0,1,0,,1,0,1,1,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1208,,"Default","simple",,"havapoo","havapoo","havapoo",1900,,,,,0,,,,,"no_selection","no_selection","no_selection",,,,,,1,"havapoo",,,4,,,,,,"Block after Info Column",0,0,,,,01/13/17 04:27 PM,01/13/17 04:28 PM,,"Use config","Use config",,2,,"No",11/12/16,"M",,,1,,0,0,1,0,0,1,1,1,0,1,0,,1,0,1,1,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1209,,"Default","simple",,"havapoo","havapoo","havapoo",1900,,,,,0,,,,,"no_selection","no_selection","no_selection",,,,,,1,"havapoo",,,4,,,,,,"Block after Info Column",0,0,,,,01/13/17 04:30 PM,01/13/17 04:30 PM,,"Use config","Use config",,2,,"No",11/12/16,"M",,,1,,0,0,1,0,0,1,1,1,0,1,0,,1,0,1,1,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1206,,"Default","simple",,"malti poo","maltese and poodle","malti poo",1800,,,,,0,,,,,"no_selection","no_selection","no_selection",,,,,,1,"malti-poo",,,4,,,,,,"Block after Info Column",0,0,,,,01/13/17 04:32 PM,01/13/17 04:33 PM,,"Use config","Use config",,2,,"No",10/19/16,"F",,,1,,0,0,1,0,0,1,1,1,0,1,0,,1,0,1,1,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1210,,"Default","simple",,"mini aussie poo","mini aussie and poodle","mini aussie poo",2000,,,,,0,,,,,"no_selection","no_selection","no_selection",,,,,,1,"mini-aussie-poo",,,4,,,,,,"Block after Info Column",0,0,,,,01/13/17 04:35 PM,01/13/17 04:41 PM,,"Use config","Use config",,2,,"No",11/03/16,"F",,,1,,0,0,1,0,0,1,1,1,0,1,0,,1,0,1,1,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1211,,"Default","simple",,"Mini Golden Doddle","Mini Golden Doodle","Mini Golden Doodle",2400,,,,,0,,,,,"no_selection","no_selection","no_selection",,,,,,1,"mini-golden-doddle",,,4,,,,,,"Block after Info Column",0,0,,,,01/13/17 04:43 PM,06/11/17 09:40 PM,,"Use config","Use config",,2,,"No",11/11/16,"M",,,1,,0,0,1,0,0,1,1,1,0,1,0,,1,0,1,1,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+1204,,"Default","simple","base","dog","Mini Schnauzer","Mini Schnauzer",1800,,,,,0,,,,,"no_selection","no_selection","no_selection",,,,,,1,"mini-schnauzer","mini-schnauzer-107.html",,4,,,,,,"Block after Info Column",0,0,,,,01/13/17 04:52 PM,06/11/17 09:36 PM,"United States","Use config","Use config",,2,,"Yes",11/06/16,"F",,,1,,1,0,1,0,0,1,1,1,0,1,1,,1,0,1,0,1,0,1,0,0,,,,,,,,,,,,,,,,,,,,,

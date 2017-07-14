@@ -20,7 +20,7 @@
  *
  * @category    design
  * @package     rwd_default
- * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @copyright   Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
@@ -29,6 +29,7 @@
     <div class="widget-title">
         <h2><?php echo $this->__('New Products') ?></h2>
     </div>
+
     <div class="widget-products">
         <?php echo $this->getPagerHtml() ?>
         <?php $_columnCount = $this->getColumnCount(); ?>
@@ -42,9 +43,12 @@
                         <img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(210) ?>" alt="<?php echo $this->stripTags($_product->getName(), null, true) ?>" />
                     </a>
                     <div class="product-info">
-                        <h3 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>"><?php echo $this->helper('catalog/output')->productAttribute($_product, $_product->getName() , 'name') ?></a></h3>
+                        <h3 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>">
+                        <?php echo $this->helper('catalog/output')->productAttribute($_product, $_product->getName() , 'name') ?></a></h3>
                         <?php echo $this->getPriceHtml($_product, true, '-widget-new-grid') ?>
+                        <!--<div class="price-box"><span class="regular-price"><span class="price">born: <?php echo $_product->getBirthday() ?></span></span></div>-->
                         <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+
                         <div class="actions">
                             <?php if ($_product->isSaleable()): ?>
                                 <button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Add to Cart')) ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>

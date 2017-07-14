@@ -556,7 +556,7 @@ h3, .h3 {
   font-style: normal;
   line-height: 1.4;
   text-rendering: optimizeSpeed;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 h4, .h4 {
@@ -569,7 +569,7 @@ h4, .h4 {
   font-style: normal;
   line-height: 1.4;
   text-rendering: optimizeSpeed;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 h5, .h5 {
@@ -595,7 +595,7 @@ h6, .h6 {
   font-style: normal;
   line-height: 1.4;
   text-rendering: optimizeSpeed;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 /* ============================================ *
@@ -608,7 +608,7 @@ h6, .h6 {
 .availability {
   margin-bottom: 0;
   font-size: 13px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .availability .label {
@@ -675,10 +675,9 @@ h6, .h6 {
   font-style: normal;
   line-height: 1.4;
   text-rendering: optimizeSpeed;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #3399cc;
   margin-bottom: 0;
-  text-transform: uppercase;
   font-weight: 600;
 }
 .block-title small {
@@ -755,7 +754,7 @@ body:not(.customer-account) .block:first-child .block-title {
     font-style: normal;
     line-height: 1.4;
     text-rendering: optimizeSpeed;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
@@ -801,7 +800,7 @@ body:not(.customer-account) .block:first-child .block-title {
     font-style: normal;
     line-height: 1.4;
     text-rendering: optimizeSpeed;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
@@ -854,7 +853,7 @@ body:not(.customer-account) .block:first-child .block-title {
 }
 .block-account li,
 .block-cms-menu li {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   margin: 7px 0;
 }
@@ -916,7 +915,7 @@ body:not(.customer-account) .block:first-child .block-title {
 .cart-table .product-cart-actions .button,
 #co-shipping-method-form .buttons-set .button,
 .footer .button {
-  background: #3399cc;
+  background: #57cc33;
   display: inline-block;
   padding: 7px 15px;
   border: 0;
@@ -926,7 +925,7 @@ body:not(.customer-account) .block:first-child .block-title {
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   line-height: 19px;
   text-align: center;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   vertical-align: middle;
   white-space: nowrap;
 }
@@ -992,7 +991,7 @@ a.button:hover {
   line-height: 30px;
   height: 30px;
   text-decoration: underline;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   display: inline-block;
   color: #3399cc;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
@@ -1143,7 +1142,7 @@ a.button:hover {
   float: left;
   font-size: 12px;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .breadcrumbs a {
@@ -1528,13 +1527,24 @@ a.button:hover {
 /* -------------------------------------------- *
  * Promotional Message Banner
  */
+ div.main-container.col1-layout .promos{
+ 	display:none;
+ }
 .promo-msg {
   color: #3399cc;
   text-align: center;
   margin: 10px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
+
+
+ div.main-container.col1-layout div.std h1{
+ 	text-align: center;
+	color: #333;
+	font-size: 36px;
+	margin-top: 40px;
+ }
 
 /* -------------------------------------------- *
  * Grid
@@ -1759,7 +1769,7 @@ a.button:hover {
 }
 
 .price-box .price {
-  color: #3399cc;
+  color: #907827;
   font-size: 16px;
 }
 
@@ -1927,7 +1937,7 @@ span.weee {
 
 .truncated .truncated_full_value .item-options > p {
   font-weight: bold;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 8px;
 }
 
@@ -2105,7 +2115,7 @@ span.weee {
 .toolbar label,
 .pager-no-toolbar label {
   font-weight: normal;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .sorter {
@@ -2217,7 +2227,7 @@ span.weee {
   border: 0;
   font-size: 13px;
   text-align: center;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   vertical-align: middle;
   white-space: nowrap;
   line-height: 30px;
@@ -2519,7 +2529,7 @@ form .legend {
   font-style: normal;
   line-height: 1.4;
   text-rendering: optimizeSpeed;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 15px;
   padding-bottom: 7px;
   border-bottom: 1px solid #ededed;
@@ -2888,7 +2898,7 @@ form .form-instructions {
 
 .data-table th {
   background: #f4f4f4;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-family: 'Nunito', sans-serif;
   line-height: 1.4;
   white-space: nowrap;
@@ -3013,7 +3023,7 @@ form .form-instructions {
     font-size: 12px;
     font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
     padding-right: 5px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
   }
   .linearize-table tfoot tr {
     display: block;
@@ -3096,7 +3106,7 @@ form .form-instructions {
     font-size: 12px;
     font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
     padding-right: 5px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
   }
   .linearize-table-large tfoot tr {
     display: block;
@@ -3181,9 +3191,9 @@ body {
  * Language switcher + welcome message
  * ============================================ */
 .header-language-background {
-  padding: 10px;
+  padding: 1px 10px;
   background-color: #edebd2;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .header-language-background .header-language-container {
   max-width: 1200px;
@@ -3226,7 +3236,54 @@ body {
 }
 .header-language-background,
 .header-language-background a {
-  color: #e6e6e6;
+  /*color: #e6e6e6;*/
+  color: #636363;
+}
+
+.header-language-background ul, .header-language-background form{
+	float:left;
+}
+
+.header-language-background ul.links.social-media{
+	float:right;
+}
+
+.header-language-background form{
+	text-transform: initial;
+	margin-left:30px;
+}
+
+.header-language-background form:before{
+	content: "\2709";
+	font-family: 'Glyphicons Halflings';
+	float: left;
+	margin-right: 7px;
+	font-size: 17px;
+}
+
+.header-language-background form div.form-subscribe-header, .header-language-background form div.input-box{
+	float: left;
+}
+
+.header-language-background form div.actions{
+	float:right;
+}
+
+.header-language-background li, .header-language-background label{
+	display:inline-block;
+	text-transform: initial;
+	margin-right: 10px;
+	font-weight: bold;
+	font-size:14px;
+}
+
+.header-language-background label sup{
+	opacity: 0.5;
+}
+
+.header-language-background form button{
+	height: 30px;
+	margin-top: 2px;
 }
 
 @media only screen and (max-width: 770px) {
@@ -3245,6 +3302,7 @@ body {
   min-height: 44px;
   text-align: center;
   padding: 10px;
+  margin-left:18%;
 }
 .logo img {
   max-width: 100%;
@@ -3390,7 +3448,7 @@ a.skip-link {
     border-bottom: 1px solid #cccccc;
     text-align: left;
     color: #636363;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     line-height: 30px;
   }
 
@@ -3470,7 +3528,7 @@ a.skip-link {
   .nav-primary {
     display: block;
     margin-top: 15px;
-    height:42px;
+    /*height:42px;*/
   }
 }
 /* ============================================ *
@@ -3578,8 +3636,8 @@ a.skip-link {
   .nav-primary li.level0,
   .nav-primary a.level0 {
     display: inline-block;
-    margin: 0px 10px;
-    padding-top: 6px;
+    /*margin: 0px 10px;*/
+    padding-top: 1px;
   }
   .nav-primary li:last-child > a {
     border-bottom: none;
@@ -3669,8 +3727,8 @@ a.skip-link {
   #header-search {
     display: block;
     position: absolute;
-    top: 55px;
-    right: 0;
+    top: 41px;
+    right: 18%;
     width: 25%;
     height: 50px;
     padding: 0;
@@ -3679,6 +3737,10 @@ a.skip-link {
 /* ============================================ *
  * Search Input
  * ============================================ */
+#search_mini_form{
+	margin-right:10px;
+}
+
 #search_mini_form .input-box {
   position: relative;
   padding-top: 0;
@@ -3698,41 +3760,45 @@ a.skip-link {
 }
 
 #search_mini_form .search-button {
-  text-indent: -9999px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 40px;
-  height: 40px;
-  border: 0;
-  background: none;
+	text-indent: -9999px;
+	position: absolute;
+	top: 1px;
+	right: 0;
+	width: 40px;
+	height: 33px;
+	border: 0;
+	background: none;
+
+	background-color: #d3be34;
+	border-width: 0px 1px 0px 1px;
+	
+	border-color: black;
+	border-style: solid;
 }
 
 #search_mini_form .search-button:before {
-    content: '';
+    content: "\e003";
+    text-indent: 0px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 7px;
+    left: 0;
     width: 39px;
     height: 33px;
-    margin-top: -19px;
-    margin-left: -20px;
     background-position: -92px -143px;
-    background-color: #d3be34;
-    border-left: 1px solid black;
     color: white!important;
     border-radius: 0px;
+    font-family: 'Glyphicons Halflings';
 }
-
 
 #search_mini_form .search-button:hover:before {
   opacity: 0.8;
 }
 
+/*
 #search_mini_form .search-button:active:before {
   margin-top: -13px;
   margin-left: -13px;
-}
+}*/
 
 /* ============================================ *
  * Header - Account
@@ -3754,7 +3820,7 @@ a.skip-link {
     vertical-align: top;
     display: inline-block;
     padding: 0 10px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
   }
 
   #header-account.skip-active {
@@ -3868,7 +3934,7 @@ a.skip-link {
 @media only screen and (min-width: 771px) {
   .skip-cart {
     color: #3399cc;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
   }
   .skip-cart:hover {
     text-decoration: none;
@@ -4037,13 +4103,13 @@ a.skip-link {
 }
 .footer .links,
 .footer .block-subscribe {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 12px;
 }
 .footer .form-subscribe-header {
   display: none;
 }
-.footer .links.social-media em {
+.links.social-media em {
   background-image: url(../images/social_icons.png);
   background-repeat: no-repeat;
   width: 13px;
@@ -4052,44 +4118,45 @@ a.skip-link {
   margin-right: 7px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 4 / 2), (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .footer .links.social-media em {
+  /*.footer .links.social-media em, .header-language-container .links.social-media em{*/
+  .links.social-media em{
     background-image: url(../images/social_icons@2x.png);
     background-size: 50px 125px;
   }
 }
-.footer .links.social-media em.facebook {
+.links.social-media em.facebook {
   background-position: 0 -0px;
   height: 13px;
 }
-.footer .links.social-media a:hover em.facebook {
+.links.social-media a:hover em.facebook {
   background-position: -25px -0px;
 }
-.footer .links.social-media em.twitter {
+.links.social-media em.twitter {
   background-position: 0 -24px;
   height: 13px;
 }
-.footer .links.social-media a:hover em.twitter {
+.links.social-media a:hover em.twitter {
   background-position: -25px -24px;
 }
-.footer .links.social-media em.youtube {
+.links.social-media em.youtube {
   background-position: 0 -49px;
   height: 13px;
 }
-.footer .links.social-media a:hover em.youtube {
+.links.social-media a:hover em.youtube {
   background-position: -25px -49px;
 }
-.footer .links.social-media em.pinterest {
+.links.social-media em.pinterest {
   background-position: 0 -74px;
   height: 15px;
 }
-.footer .links.social-media a:hover em.pinterest {
+.links.social-media a:hover em.pinterest {
   background-position: -25px -74px;
 }
-.footer .links.social-media em.rss {
+.links.social-media em.rss {
   background-position: 0 -99px;
   height: 13px;
 }
-.footer .links.social-media a:hover em.rss {
+.links.social-media a:hover em.rss {
   background-position: -25px -99px;
 }
 .footer .block-subscribe .input-box {
@@ -4223,7 +4290,7 @@ p.product-name {
   font-style: normal;
   line-height: 1.2;
   text-rendering: optimizeLegibility;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 13px;
   font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
   font-weight: normal;
@@ -4234,7 +4301,9 @@ h3.product-name a,
 h4.product-name a,
 h5.product-name a,
 p.product-name a {
-  color: #636363;
+  /*color: #636363;*/
+  color: #5D8B34;
+  text-transform: capitalize;
 }
 h2.product-name a:hover,
 h3.product-name a:hover,
@@ -4247,9 +4316,9 @@ p.product-name a:hover {
 
 .products-grid .product-name,
 .products-list .product-name {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 20px;
   font-family: 'Nunito', sans-serif;
 }
 .products-grid .product-name a,
@@ -4683,7 +4752,7 @@ p.product-name a:hover {
   font-style: normal;
   line-height: 1.4;
   text-rendering: optimizeSpeed;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
@@ -4730,7 +4799,7 @@ p.product-name a:hover {
   font-style: normal;
   line-height: 1.4;
   text-rendering: optimizeSpeed;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
@@ -4926,7 +4995,7 @@ p.product-name a:hover {
   font-style: normal;
   line-height: 1.4;
   text-rendering: optimizeSpeed;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .block-layered-nav .currently ol {
   padding-left: 10px;
@@ -5031,7 +5100,7 @@ p.product-name a:hover {
 }
 .product-view .product-shop .price-box .special-price .price-label {
   font-size: 16px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .product-view .product-shop .price-box .special-price span.weee {
   color: #636363;
@@ -5404,7 +5473,7 @@ p.product-name a:hover {
     height: 40px;
     line-height: 40px;
     cursor: pointer;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 12px;
     position: relative;
     bottom: -1px;
@@ -5460,7 +5529,7 @@ p.product-name a:hover {
     font-style: normal;
     line-height: 1.4;
     text-rendering: optimizeSpeed;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
@@ -5847,7 +5916,7 @@ p.product-name a:hover {
   font-style: normal;
   line-height: 1.2;
   text-rendering: optimizeLegibility;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 0;
 }
 .block-related .block-subtitle {
@@ -5913,7 +5982,7 @@ p.product-name a:hover {
   margin: 10px 10px 0;
   padding: 10px;
   text-align: right;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .map-cart-sidebar-total {
@@ -6365,7 +6434,7 @@ p.product-name a:hover {
 .cart-table span.or {
   font-size: 9px;
   padding: 0 5px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-family: 'Nunito', sans-serif;
 }
 .cart-table .product-cart-image .cart-links,
@@ -6519,7 +6588,7 @@ p.product-name a:hover {
     font-size: 12px;
     font-family: 'Nunito', sans-serif;
     padding-right: 5px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
   }
   .cart-table td.product-cart-price {
     text-align: left;
@@ -6555,7 +6624,7 @@ p.product-name a:hover {
     display: block;
     font-size: 16px;
     text-align: center;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
   }
   .cart-table .product-cart-info,
   .cart-table td[data-rwd-label] {
@@ -6677,7 +6746,7 @@ p.product-name a:hover {
   font-family: 'Nunito', sans-serif;
   font-size: 13px;
   font-weight: 400;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   white-space: nowrap;
 }
 .shipping .sp-methods {
@@ -6736,7 +6805,7 @@ p.product-name a:hover {
   font-family: 'Nunito', sans-serif;
   font-size: 12px;
   margin-bottom: 20px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   width: 100%;
 }
 .cart .cart-totals table td {
@@ -6798,7 +6867,7 @@ p.product-name a:hover {
   font-size: 12px;
   font-weight: 400;
   text-align: left;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   min-width: 105px;
   display: inline-block;
   margin-right: 10px;
@@ -7224,9 +7293,8 @@ body:not(.opc-has-progressed-from-login) .opc.opc-firststep-login .section#opc-l
   font-style: normal;
   line-height: 1.4;
   text-rendering: optimizeSpeed;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 6px;
-  text-transform: uppercase;
   font-weight: normal;
   color: #a0a0a0;
 }
@@ -7869,7 +7937,7 @@ body.customer-account .data-table {
 }
 body.customer-account .data-table td a {
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-style: normal;
   font-size: 13px;
 }
@@ -7947,7 +8015,7 @@ body.customer-account .sidebar .block-reorder ol#cart-sidebar-reorder p.product-
 }
 .dashboard .box-title a,
 .dashboard .box-head a {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 12px;
 }
 .dashboard .box-account {
@@ -8082,7 +8150,7 @@ body.customer-account .sidebar .block-reorder ol#cart-sidebar-reorder p.product-
 
 .order-date {
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .order-info-box {
@@ -8138,7 +8206,7 @@ body.customer-account .sidebar .block-reorder ol#cart-sidebar-reorder p.product-
 .order-info-box .box-content strong {
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-weight: normal;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 #my-orders-table .option-label {
@@ -8550,7 +8618,7 @@ div.paypal-logo span > img {
 #customer-reviews .review-heading .pager .count-container .limiter label {
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 10px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 #customer-reviews .review-heading .pager .amount {
   display: none;
@@ -8558,7 +8626,7 @@ div.paypal-logo span > img {
 #customer-reviews h2 {
   color: #3399cc;
   font-size: 12px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 #customer-reviews h2 span {
   color: #636363;
@@ -8567,7 +8635,7 @@ div.paypal-logo span > img {
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 #customer-reviews h3 span {
   color: #3399cc;
@@ -8582,7 +8650,7 @@ div.paypal-logo span > img {
   font-size: 12px;
   font-weight: normal;
   padding-bottom: 5px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 #customer-reviews .fieldset h4 em {
   display: none;
@@ -8592,7 +8660,7 @@ div.paypal-logo span > img {
   font-size: 12px;
   font-weight: normal;
   margin: 10px 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   width: 470px;
 }
 #customer-reviews .fieldset .form-list .inline-label:after {

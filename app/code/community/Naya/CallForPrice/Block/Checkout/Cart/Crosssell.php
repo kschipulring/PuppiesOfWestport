@@ -15,12 +15,9 @@ class Naya_CallForPrice_Block_Checkout_Cart_Crosssell extends Mage_Checkout_Bloc
         $eavAttribute = new Mage_Eav_Model_Mysql4_Entity_Attribute();
         $code = $eavAttribute->getIdByCode('catalog_product', 'naya_call_for_price_enable');
         $connection = Mage::getSingleton('core/resource')->getConnection('core_read');
-
-        $cpei = Mage::getSingleton('core/resource')->getTableName('customer_entity');
-
         $sql = <<<SQL
             SELECT `value`
-            FROM {$cpei}
+            FROM catalog_product_entity_int
             WHERE entity_id = {$product->getId()}
             AND attribute_id = {$code}
 SQL;

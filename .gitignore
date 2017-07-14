@@ -1,0 +1,5 @@
+media/
+var/report/
+var/session/
+*.mp3
+*.mp4

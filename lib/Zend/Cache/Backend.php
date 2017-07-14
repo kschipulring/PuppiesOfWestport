@@ -211,8 +211,8 @@ class Zend_Cache_Backend
         if ($this->_isGoodTmpDir('/tmp')) {
             return '/tmp';
         }
-        if ($this->_isGoodTmpDir('/homepages/11/d663566550/htdocs/clickandbuilds/Magento/PuppiesOfWestport/tmp')) {
-            return '/homepages/11/d663566550/htdocs/clickandbuilds/Magento/PuppiesOfWestport/tmp';
+        if ($this->_isGoodTmpDir('/homepages/11/d663566550/htdocs/clickandbuilds/Magento/MyeCommerce2/tmp')) {
+            return '/homepages/11/d663566550/htdocs/clickandbuilds/Magento/MyeCommerce2/tmp';
         }
         Zend_Cache::throwException('Could not determine temp directory, please specify a cache_dir manually');
     }

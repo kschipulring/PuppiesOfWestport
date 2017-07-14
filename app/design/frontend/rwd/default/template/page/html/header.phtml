@@ -20,7 +20,7 @@
  *
  * @category    design
  * @package     rwd_default
- * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @copyright   Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 /**
@@ -36,7 +36,42 @@
 
         <?php echo $this->getChildHtml('currency_switcher') ?>
 
-        <p class="welcome-msg"><?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getChildHtml('accountLinks') ?></p>
+        <p class="welcome-msg">
+		<?php //echo $this->getChildHtml('welcome') ?> <?php //echo $this->getChildHtml('accountLinks') ?>
+
+		<ul>
+			<li><a href="/about-puppies/">About Us</a></li>
+			<li><a href="/contacts/">Contact Us</a></li>
+		</ul>
+
+		<form id="newsletter-validate-detail-header" action="/newsletter/subscriber/new/"  method="post">
+
+			<div class="form-subscribe-header">
+				<label for="newsletter">
+					Sign Up for Our Newsletter*
+					<br/>
+					<sup>you may opt out at any time</sup>
+				</label>
+			</div>
+			<div class="input-box">
+				<input autocapitalize="off" autocorrect="off" spellcheck="false" name="email" id="newsletter" title="Sign up for our newsletter" class="input-text required-entry validate-email" type="email" />
+			</div>
+
+			<div class="actions">
+				<button type="submit" title="Subscribe" class="button"><span><span>Subscribe</span></span></button>
+			</div>
+		</form>
+
+		<ul class="links social-media">
+			<li><a target="_blank" href="https://www.facebook.com/PuppiesofWestport/"><em class="facebook"></em><!--Facebook--></a></li>
+			<li><a target="_blank" href="https://twitter.com/PuppiesofWestpo"><em class="twitter"></em><!--Twitter--></a></li>
+			<li><a target="_blank" href="https://www.youtube.com/channel/UCu4COi5097KX9TyfeqiAJ1A"><em class="youtube"></em><!--YouTube--></a></li>
+			<li><a target="_blank" href="https://www.pinterest.com/puppiesnorwalk/"><em class="pinterest"></em><!--Pinterest--></a></li>
+			<li class="last"><a href="#"><em class="rss"></em><!--RSS--></a></li>
+		</ul>
+
+		<?php echo $this->getChildHtml('footer_links_sm'); ?>
+	</p>
     </div>
 </div>
 

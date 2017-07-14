@@ -826,7 +826,7 @@
 		 *
 		 * @method getElementRule
 		 * @param {String} name Element name to check for.
-		 * @return {Object} Element object or undefined if the element isn't valid.
+		 * @return {Object} Element object or undefined if the element isn't valid.
 		 */
 		self.getElementRule = getElementRule;
 

@@ -68,6 +68,7 @@ class Naya_CallForPrice_Model_Observer {
             WHERE entity_id = {$product->getId()}
             AND attribute_id = {$code}
 SQL;
+
         $row = $connection->fetchRow($sql);
         return $row['value'];
     }

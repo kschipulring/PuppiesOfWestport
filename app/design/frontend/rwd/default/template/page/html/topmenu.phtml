@@ -20,7 +20,7 @@
  *
  * @category    design
  * @package     rwd_default
- * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @copyright   Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
@@ -36,13 +36,31 @@
 <?php if($_menu): ?>
     <nav id="nav">
         <ol class="nav-primary">
-            <?php //echo $_menu
-
-
-			$aux = Mage::app()->getStore(true)->getId();
-			echo $this->helper('navadmin/data')->drawItem($aux);
-
-			?>
+		<?php echo $_menu ?>
+		<li class="level0 nav-1">
+			<a href="<?php echo Mage::getBaseUrl(); ?>testimonials" class="level0">Testimonials</a>
+		</li>
+		<li class="level0 nav-1">
+			<a href="<?php echo Mage::getBaseUrl(); ?>alumni" class="level0">Alumni</a>
+		</li>
+		<li class="level0 nav-1">
+			<a href="<?php echo Mage::getBaseUrl(); ?>partnerships" class="level0">Partnerships</a>
+		</li>
+		<li class="level0 nav-1">
+			<a href="<?php echo Mage::getBaseUrl(); ?>about-magento-demo-store" class="level0">About Us</a>
+		</li>
+		<li class="level0 nav-1">
+			<a href="<?php echo Mage::getBaseUrl(); ?>store-facts" class="level0">Store Facts</a>
+		</li>
+		<li class="level0 nav-1">
+			<a href="<?php echo Mage::getBaseUrl(); ?>contact-us" class="level0">Contact Us</a>
+		</li>
+		<li class="level0 nav-1">
+			<a href="<?php echo Mage::getBaseUrl(); ?>find-us" class="level0">Find Us</a>
+		</li>
+		<li class="level0 nav-1">
+			<a href="<?php echo Mage::getBaseUrl(); ?>memorial-to-monty" class="level0">Memorial to Monty</a>
+		</li>
         </ol>
     </nav>
 <?php endif ?>
