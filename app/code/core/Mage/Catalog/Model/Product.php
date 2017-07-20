@@ -1457,7 +1457,7 @@ class Mage_Catalog_Model_Product extends Mage_Catalog_Model_Abstract
     public function getBirthday(){
         $date = date_create($this->_data["born_on"]);
 
-        return date_format($date,"d-m-Y");
+        return date_format($date,"m-d-Y");
         ///return $this->_data["born_on"];
     }
 

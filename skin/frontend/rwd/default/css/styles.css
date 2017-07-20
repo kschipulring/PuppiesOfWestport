@@ -727,6 +727,10 @@ body:not(.customer-account) .block:first-child .block-title {
   float: right;
 }
 
+.actions .button.btn-cart {
+	display: none;
+}
+
 .col-left .block .actions .button ~ a,
 .col-right .block .actions .button ~ a {
   line-height: 33px;
@@ -1358,6 +1362,10 @@ a.button:hover {
   width: auto;
   padding: 0;
   /* Remove the 15px padding */
+}
+
+.col1-layout .main .col-main .std center {
+	margin-top:90px;
 }
 
 .col2-left-layout .col-main {
@@ -3153,6 +3161,7 @@ form .form-instructions {
 html,
 body {
   height: 100%;
+  background-color:#edebd2;
 }
 
 .wrapper {
@@ -3295,14 +3304,19 @@ body {
  * Logo
  * ============================================ */
 .logo {
-  display: block;
-  float: left;
-  width: 65%;
-  min-width: 100px;
-  min-height: 44px;
-  text-align: center;
-  padding: 10px;
-  margin-left:18%;
+	display: block;
+	float: left;
+	width: 65%;
+	min-width: 100px;
+	min-height: 44px;
+	text-align: center;
+	padding: 10px;
+	margin-left:18%;
+
+	-webkit-transition-property: width; /* Safari */
+	-webkit-transition-duration: 1s; /* Safari */
+	transition-property: width;
+	transition-duration: 1s;
 }
 .logo img {
   max-width: 100%;
@@ -3320,7 +3334,7 @@ body {
 
 @media only screen and (min-width: 771px) {
   .logo {
-    /*max-width: 300px;*/
+    max-width: 400px;
     min-height: 90px;
   }
   .logo .small {
@@ -3330,6 +3344,13 @@ body {
     display: block;
   }
 }
+
+@media only screen and (min-width: 1100px) {
+  .logo {
+    max-width: inherit;
+  }
+}
+
 /* ============================================ *
  * Skip Links
  * ============================================ */
@@ -3338,6 +3359,7 @@ body {
   overflow: hidden;
   border-top: 1px solid #EDEDED;
   border-bottom: 1px solid #EDEDED;
+  background-color: #225f82;
 }
 
 @media only screen and (min-width: 771px) {
@@ -3353,7 +3375,7 @@ body {
   float: left;
   width: 20%;
   height: 44px;
-  background: #FFFFFF;
+  /*background: #FFFFFF;*/
   color: #636363;
   line-height: 42px;
   text-align: center;
@@ -3386,8 +3408,8 @@ a.skip-link {
  */
 @media only screen and (max-width: 770px) {
   .skip-link.skip-active {
-    background: #EDEDED;
-    color: inherit;
+    background: #0F3F5A;
+    color: white;
   }
 
   .skip-link.skip-active span {
@@ -3459,7 +3481,8 @@ a.skip-link {
 
   .no-touch #header-account a:hover,
   .no-touch .nav-primary a:hover {
-    background-color: #f4f4f4;
+    /*background-color: #f4f4f4;*/
+    background: #0F3F5A;
     text-decoration: none;
   }
 }
@@ -3544,10 +3567,19 @@ a.skip-link {
   text-decoration: none;
   position: relative;
   display: block;
-  color: #636363;
+  /*color: #636363;*/
+  color: #F3F3F3;
   line-height: 30px;
   font-family: 'Nunito', sans-serif;
 }
+
+@media only screen and (min-width: 771px) {
+	.nav-primary a {
+		color: #636363;
+	}
+}
+
+
 .nav-primary li {
   position: relative;
 }
@@ -3728,7 +3760,7 @@ a.skip-link {
     display: block;
     position: absolute;
     top: 41px;
-    right: 18%;
+    right: 1%;
     width: 25%;
     height: 50px;
     padding: 0;
@@ -5277,6 +5309,7 @@ p.product-name a:hover {
   padding-bottom: 3px;
   margin-bottom: 10px;
   border-bottom: 1px solid #cccccc;
+  display:none;
 }
 .product-view .add-to-cart .qty-wrapper,
 .product-view .product-options-bottom .price-box,

@@ -69,6 +69,13 @@
                     <?php echo $this->getChildHtml('product_type_availability'); ?>
                 </div>
 
+                <div class="extra-info">
+                    <span class=""> Born on: <?php echo $_product->getBirthday() ?></span>
+                </div>
+                <div class="extra-info">
+                    <span class=""> w# <?php echo $_product->getSku() ?></span>
+                </div>
+
                 <?php echo $this->getChildHtml('alert_urls') ?>
 
                 <?php if ($_product->getShortDescription()):?>
@@ -76,8 +83,6 @@
                         <div class="std"><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></div>
                     </div>
                 <?php endif;?>
-
-
 
 
                 <?php echo $this->getChildHtml('other');?>

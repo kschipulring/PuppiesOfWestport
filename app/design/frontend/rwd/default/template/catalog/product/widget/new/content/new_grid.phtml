@@ -45,8 +45,11 @@
                     <div class="product-info">
                         <h3 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>">
                         <?php echo $this->helper('catalog/output')->productAttribute($_product, $_product->getName() , 'name') ?></a></h3>
-                        <?php echo $this->getPriceHtml($_product, true, '-widget-new-grid') ?>
-                        <!--<div class="price-box"><span class="regular-price"><span class="price">born: <?php echo $_product->getBirthday() ?></span></span></div>-->
+                        <?php //echo $this->getPriceHtml($_product, true, '-widget-new-grid') ?>
+                        <div class="price-box"><span class="regular-price"><span class="price">born: <?php echo $_product->getBirthday() ?></span></span></div>
+                        
+                        <!--<div class="price-box"><span class="regular-price"><span class="price">W# <?php echo $_product->getSku() ?></span></span></div>-->
+
                         <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
 
                         <div class="actions">
