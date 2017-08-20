@@ -258,10 +258,11 @@ class Mage_Catalog_Block_Navigation extends Mage_Core_Block_Template
         // select active children
         $activeChildren = array();
         foreach ($children as $child) {
-            if ($child->getIsActive()) {
+            if ($child->getIsActive() && $child->getProductCount() > 0) {
                 $activeChildren[] = $child;
             }
         }
+
         $activeChildrenCount = count($activeChildren);
         $hasActiveChildren = ($activeChildrenCount > 0);
 
@@ -437,10 +438,11 @@ class Mage_Catalog_Block_Navigation extends Mage_Core_Block_Template
     {
         $activeCategories = array();
         foreach ($this->getStoreCategories() as $child) {
-            if ($child->getIsActive()) {
+            if ($child->getIsActive() && $child->getProductCount() > 0 ) {
                 $activeCategories[] = $child;
             }
         }
+
         $activeCategoriesCount = count($activeCategories);
         $hasActiveCategoriesCount = ($activeCategoriesCount > 0);
 
