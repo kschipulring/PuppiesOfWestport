@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The root node for Magento module configuration -->
+<config>
+
+	<!--
+	   The module's node contains basic
+	   information about each Magento module
+	-->
+	<modules>
+
+		<!--
+		  This must exactly match the namespace and module's folder
+		  names, with directory separators replaced by underscores
+		-->
+		<ThreeRingDesign_HideEmptyOutOfStockCategories>
+			<!-- The version of our module, starting at 0.0.1 -->
+			<version>0.0.1</version>
+		</ThreeRingDesign_HideEmptyOutOfStockCategories>
+	</modules>
+	<global>
+		<models>
+			<threeringdesign_hideemptyoutofstockcategories>
+				<class>ThreeRingDesign_HideEmptyOutOfStockCategories_Model</class>
+			</threeringdesign_hideemptyoutofstockcategories>
+			<catalog_resource>
+				<rewrite>
+					<category>ThreeRingDesign_HideEmptyOutOfStockCategories_Model_Resource_Category</category>
+				</rewrite>
+			</catalog_resource>
+		</models>
+		<blocks>
+			<threeringdesign_hideemptyoutofstockcategories>
+				<class>ThreeRingDesign_HideEmptyOutOfStockCategories_Block</class>
+			</threeringdesign_hideemptyoutofstockcategories>
+			<navigation>
+				<rewrite>
+					<block>ThreeRingDesign_HideEmptyOutOfStockCategories_Block_Navigation</block>
+				</rewrite>
+			</navigation>
+		</blocks>
+	</global>
+	<frontend>
+		<layout>
+			<updates>
+				<threeringdesign_hideemptyoutofstockcategories>
+					<file>threeringdesign_hideemptyoutofstockcategories.xml</file> <!-- Our layout file name-->
+				</threeringdesign_hideemptyoutofstockcategories>
+			</updates>
+		</layout>
+		<events>
+			<catalog_category_collection_load_after>
+				<observers>
+					<threeringdesign_hideemptyoutofstockcategories>
+						<type>singleton</type>
+						<class>hideemptycategories/observer</class>
+						<method>catalogCategoryCollectionLoadAfter</method>
+					</threeringdesign_hideemptyoutofstockcategories>
+				</observers>
+			</catalog_category_collection_load_after>
+		</events>
+	</frontend>
+</config>

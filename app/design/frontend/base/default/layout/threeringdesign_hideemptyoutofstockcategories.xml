@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+	<!--
+	<threeringdesign_hideemptyoutofstockcategories_index_index>
+		<reference name="content">
+			<block type="moduleone/moduleone" name="threeringdesign_hideemptyoutofstockcategories" template="moduleone/moduleone.phtml" />
+		</reference>
+	</threeringdesign_hideemptyoutofstockcategories_index_index>
+-->
+
+	<catalog_navigation_left>
+		<reference name="left">
+			<action method="setTemplate">
+				<template>threeringdesign/catalog/navigation/left.phtml</template>
+			</action>
+		</reference>
+	</catalog_navigation_left>
+</layout>
