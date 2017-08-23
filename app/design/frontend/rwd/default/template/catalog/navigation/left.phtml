@@ -31,14 +31,6 @@
  */
 ?>
 <?php if (!Mage::registry('current_category')) return ?>
-
-<!--
-<?php
-
-echo '$this->getId() = ' . $this->getId();
-?>
--->
-
 <?php $_categories = $this->getCurrentChildCategories() ?>
 <?php $_count = is_array($_categories)?count($_categories):$_categories->count(); ?>
 <?php if($_count): ?>
@@ -49,11 +41,11 @@ echo '$this->getId() = ' . $this->getId();
     <div class="block-content toggle-content open">
         <p class="block-subtitle block-subtitle--filter"><?php echo $this->__('Filter') ?></p>
         <dl id="narrow-by-list2">
-            <dt class="classcount <?php echo $_count; ?>"><?php echo $this->__('Category') ?></dt>
+            <dt><?php echo $this->__('Category') ?></dt>
             <dd>
                 <ol>
                 <?php foreach ($_categories as $_category): ?>
-                    <?php if( $_category->getIsActive() && $_category->getProductCount() > 0 ): ?>
+                    <?php if($_category->getIsActive()): ?>
                     <li>
                         <a href="<?php echo $this->getCategoryUrl($_category) ?>"<?php if ($this->isCategoryActive($_category)): ?> class="current"<?php endif; ?>>
                             <?php echo $this->escapeHtml($_category->getName()) ?>
