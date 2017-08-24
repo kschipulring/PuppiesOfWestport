@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Psychose_CallBack>
+      <version>0.1.0</version>
+    </Psychose_CallBack>
+  </modules>
+  <frontend>
+    <routers>
+      <callback>
+        <use>standard</use>
+          <args>
+            <module>Psychose_CallBack</module>
+            <frontName>callback</frontName>
+          </args>
+      </callback>
+      <callbacksend>
+        <use>standard</use>
+          <args>
+            <module>Psychose_CallBack</module>
+            <frontName>callbacksend</frontName>
+          </args>
+      </callbacksend>
+      
+    </routers>
+		<layout>
+		  <updates>
+			<callback>
+			  <file>callback.xml</file>
+			</callback>
+		  </updates>
+		</layout>
+  </frontend>
+  <global>
+    <helpers>
+      <callback>
+        <class>Psychose_CallBack_Helper</class>
+      </callback>
+    </helpers>
+	<blocks>
+	  <callback>
+		<class>Psychose_CallBack_Block</class>
+	  </callback>
+	</blocks>
+	<models>
+	  <callback>
+		<class>Psychose_CallBack_Model</class>
+		<resourceModel>callback_mysql4</resourceModel>
+	  </callback>
+	  <callback_mysql4>
+		<class>Psychose_CallBack_Model_Mysql4</class>
+		<entities>		  
+			  <callback>
+				<table>callbacks</table>
+			  </callback>
+        </entities>
+	  </callback_mysql4>
+	</models>
+	<resources>
+	  <callback_setup>
+		<setup>
+		  <module>Psychose_CallBack</module>
+		</setup>
+		<connection>
+		  <use>core_setup</use>
+		</connection>
+	  </callback_setup>
+	  <callback_write>
+		<connection>
+		  <use>core_write</use>
+		</connection>
+	  </callback_write>
+	  <callback_read>
+		<connection>
+		  <use>core_read</use>
+		</connection>
+	  </callback_read>
+	</resources>
+  </global>
+  <admin>
+	<routers>
+	  <callbackk>
+	    <use>admin</use>
+		<args>
+		  <module>Psychose_CallBack</module>
+		  <frontName>admin_callbackk</frontName>
+		</args>
+	  </callbackk>
+	</routers>
+  </admin>
+  <adminhtml>
+	<menu>
+	  <callback module="callback">
+		<title>CallBack</title>
+		<sort_order>100</sort_order>
+		<children>
+		  
+		  <callback module="callback">
+		    <title>Manage Callback</title>
+			<sort_order>0</sort_order>
+			<action>admin_callbackk/adminhtml_callbackk</action>
+		  </callback>
+		</children>
+	  </callback>
+	</menu>
+	<acl>
+	  <resources>
+		<all>
+		  <title>Allow Everything</title>
+		</all>
+		<admin>
+		  <children>
+			<callback translate="title" module="callback">
+			  <title>CallBacks</title>
+			  <sort_order>1000</sort_order>
+			  <children>
+		 
+		  <callback translate="title">
+			<title>Manage Callbacks</title>
+			<sort_order>0</sort_order>
+		  </callback>
+			  </children>
+			</callback>
+		  </children>
+		</admin>
+	  </resources>
+	</acl>
+	<layout>
+	  <updates>
+		<callback>
+		  <file>callback.xml</file>
+		</callback>
+	  </updates>
+	</layout>
+  </adminhtml>
+</config> 

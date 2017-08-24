@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<widgets>    
+	<callback_callbackwidget type="callback/callbackwidget" translate="name description" module="callback">
+        <name>Callback Widget</name>
+        <description type="desc">Callback Widget</description>
+        <parameters>
+		   <template>
+        <values>
+            <block_right translate="label">
+                <value>callback/index.phtml</value>
+                <label>Callback form {custom name}</label>
+            </block_right>
+        </values>
+    </template>
+        </parameters>
+    </callback_callbackwidget>
+</widgets>
