@@ -661,7 +661,7 @@ h6, .h6 {
   position: relative;
   padding: 10px 0 0;
   margin-bottom: 5px;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #bec5cc;
 }
 .block-title h2,
 .block-title h3,
@@ -769,9 +769,11 @@ body:not(.customer-account) .block:first-child .block-title {
     padding: 7px 10px 7px 24px;
     border-width: 1px;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #bec5cc;
     position: relative;
-    background-color: #f4f4f4;
+    /*background-color: rgba(0,0,0,0.04);*/
+
+    background-color: rgba(0,0,0,0.04);
     display: block;
     width: 100%;
     cursor: pointer;
@@ -815,9 +817,10 @@ body:not(.customer-account) .block:first-child .block-title {
     padding: 7px 10px 7px 24px;
     border-width: 1px;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #bec5cc;
     position: relative;
-    background-color: #f4f4f4;
+    /*background-color: rgba(0,0,0,0.04);*/
+    background-color: rgba(0,0,0,0.04);
   }
   .sidebar .block:not(.block-layered-nav) .block-title.active > strong:after {
     content: '';
@@ -841,10 +844,10 @@ body:not(.customer-account) .block:first-child .block-title {
     margin-top: 0;
     border-width: 0 1px;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #bec5cc;
   }
   .sidebar .block:last-of-type {
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #bec5cc;
   }
 }
 /* -------------------------------------------- *
@@ -1275,8 +1278,8 @@ a.button:hover {
   max-height: 125px;
   margin-bottom: 10px;
   padding: 10px;
-  border: 1px solid #cccccc;
-  background: #f4f4f4;
+  border: 1px solid #bec5cc;
+  background: rgba(0,0,0,0.04);
 }
 
 /* -------------------------------------------- *
@@ -1591,7 +1594,7 @@ a.button:hover {
   position: relative;
   margin-bottom: 5px;
   padding: 7px 10px 7px 20px;
-  background: #f4f4f4;
+  background: rgba(0,0,0,0.04);
   font-size: 15px;
 }
 
@@ -1706,8 +1709,8 @@ a.button:hover {
   max-width: 100%;
   margin: 5px 15px 15px;
   padding: 15px;
-  border: 1px solid #cccccc;
-  background: #f4f4f4;
+  border: 1px solid #bec5cc;
+  background: rgba(0,0,0,0.04);
 }
 
 .payment-methods .form-list:before {
@@ -1718,7 +1721,7 @@ a.button:hover {
   display: block;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
-  border-bottom: 10px solid #cccccc;
+  border-bottom: 10px solid #bec5cc;
   border-top: none;
   top: -11px;
   left: 30px;
@@ -1732,7 +1735,7 @@ a.button:hover {
   display: block;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
-  border-bottom: 10px solid #f4f4f4;
+  border-bottom: 10px solid rgba(0,0,0,0.04);
   border-top: none;
   top: -10px;
   left: 30px;
@@ -2093,9 +2096,10 @@ span.weee {
 .toolbar {
   margin-top: 10px;
   margin-bottom: 15px;
-  border-bottom: 1px solid #cccccc;
-  border-top: 1px solid #cccccc;
-  background: #f4f4f4;
+  border-bottom: 1px solid #bec5cc;
+  border-top: 1px solid #bec5cc;
+  /*background: rgba(0,0,0,0.04);*/
+  background: rgba(0,0,0,0.04);
   padding: 5px 10px 0px 10px;
 }
 .toolbar:after {
@@ -2246,10 +2250,14 @@ span.weee {
   font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
 }
 
+.pager li>a{
+  padding:0px;
+}
+
 .pages .current,
 .pages .current:hover {
   color: #636363;
-  border: 1px solid #cccccc;
+  border: 1px solid #bec5cc;
   width: 30px;
   background-color: #FFFFFF;
   cursor: default;
@@ -2260,12 +2268,14 @@ span.weee {
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
-  background-color: transparent;
+  /*background-color: transparent;*/
+  background-color: rgba(255,255,255,0.33);
   position: relative;
 }
 .pages .next:hover,
 .pages .previous:hover {
   border: 1px solid #3399cc;
+  background-color: #eff;
 }
 
 .pages .next:before {
@@ -2815,7 +2825,8 @@ p.required,
 #co-shipping-method-form .sp-methods dd label,
 .product-options ul.options-list label {
   color: #636363;
-  background-color: #f4f4f4;
+  /*background-color: rgba(0,0,0,0.04);*/
+  background-color: rgba(0,0,0,0.04);
   padding: 5px 10px;
   display: inline-block;
   width: auto;
@@ -2905,11 +2916,13 @@ form .form-instructions {
 }
 
 .data-table th {
-  background: #f4f4f4;
+  /*background: rgba(0,0,0,0.04);*/
+  background: rgba(0,0,0,0.05);
   /*text-transform: uppercase;*/
   font-family: 'Nunito', sans-serif;
-  line-height: 1.4;
+  line-height: 4.5;
   white-space: nowrap;
+  color: #72A961;
 }
 
 .data-table thead th,
@@ -2923,7 +2936,8 @@ form .form-instructions {
 }
 
 .data-table tfoot tr {
-  background: #f4f4f4;
+  /*background: rgba(0,0,0,0.04);*/
+  background: rgba(0,0,0,0.04);
 }
 
 .data-table tbody td .item-options {
@@ -3005,7 +3019,7 @@ form .form-instructions {
   }
   .linearize-table tbody tr {
     position: relative;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #bec5cc;
   }
   .linearize-table tbody td {
     padding: 0 10px 4px;
@@ -3088,7 +3102,7 @@ form .form-instructions {
   }
   .linearize-table-large tbody tr {
     position: relative;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #bec5cc;
   }
   .linearize-table-large tbody td {
     padding: 0 10px 4px;
@@ -3168,7 +3182,11 @@ body {
   min-width: 320px;
   min-height: 100%;
   margin: 0 auto;
-  background: #EDF6FF;
+    background-color: #EDF6FF;
+    background-image: url(/skin/frontend/rwd/default/images/bg-fade.jpg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
 }
 
 .wrapper:after {
@@ -3194,6 +3212,7 @@ body {
 .header-language-container,
 .page-header {
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  border-bottom: none;
 }
 
 /* ============================================ *
@@ -3298,6 +3317,9 @@ body {
 @media only screen and (max-width: 770px) {
   .header-language-background {
     display: none;
+  }
+  .page-header{
+  	margin-top:0px;
   }
 }
 /* ============================================ *
@@ -3440,7 +3462,8 @@ a.skip-link {
  * Skip Link - Label
  */
 .skip-link .label {
-  display: none;
+  /*display: none;*/
+  display: inline;
 }
 
 @media only screen and (min-width: 500px) {
@@ -3467,7 +3490,7 @@ a.skip-link {
   #header-account li a,
   .nav-primary a.level0 {
     padding: 0 15px 0 25px;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #bec5cc;
     text-align: left;
     color: #636363;
     /*text-transform: uppercase;*/
@@ -3481,7 +3504,7 @@ a.skip-link {
 
   .no-touch #header-account a:hover,
   .no-touch .nav-primary a:hover {
-    /*background-color: #f4f4f4;*/
+    /*background-color: rgba(0,0,0,0.04);*/
     background: #0F3F5A;
     text-decoration: none;
   }
@@ -3584,7 +3607,7 @@ a.skip-link {
   position: relative;
 }
 .nav-primary li.level1 a {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #bec5cc;
 }
 
 .nav-primary .menu-active > ul.level0,
@@ -3623,7 +3646,7 @@ a.skip-link {
     display: block;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-left: 5px solid #cccccc;
+    border-left: 5px solid #bec5cc;
     border-right: none;
     top: 50%;
     left: 10px;
@@ -3639,7 +3662,7 @@ a.skip-link {
     display: block;
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
-    border-top: 5px solid #cccccc;
+    border-top: 5px solid #bec5cc;
     border-bottom: none;
     top: 50%;
     left: 10px;
@@ -3683,7 +3706,7 @@ a.skip-link {
   }
   .nav-primary li.level0 ul {
     background: #FBFBFB;
-    border: solid 1px #cccccc;
+    border: solid 1px #bec5cc;
     position: absolute;
     left: 0;
     top: 30px;
@@ -3722,7 +3745,7 @@ a.skip-link {
     display: block;
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
-    border-left: 4px solid #cccccc;
+    border-left: 4px solid #bec5cc;
     border-right: none;
     right: 5px;
     top: 50%;
@@ -3857,7 +3880,7 @@ a.skip-link {
 
   #header-account.skip-active {
     background: #FBFBFB;
-    border: solid 1px #cccccc;
+    border: solid 1px #bec5cc;
     display: block;
     position: absolute;
     z-index: 200;
@@ -3917,7 +3940,7 @@ a.skip-link {
 
   #header-cart.skip-active {
     background: #FBFBFB;
-    border: solid 1px #cccccc;
+    border: solid 1px #bec5cc;
     display: block;
     position: absolute;
     z-index: 200;
@@ -4042,7 +4065,7 @@ a.skip-link {
   position: relative;
   min-height: 90px;
   padding: 15px 15px 15px 90px;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #bec5cc;
   font-size: 13px;
   line-height: 1.35;
 }
@@ -4071,7 +4094,7 @@ a.skip-link {
 /* Too full - additional items will be shown in cart */
 .cart-menu .last-added {
   padding: 10px 15px 15px;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #bec5cc;
   font-size: 13px;
 }
 
@@ -4089,7 +4112,7 @@ a.skip-link {
 .footer {
   clear: both;
   width: 100%;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #bec5cc;
   padding-top: 30px;
   /* -------------------------------------------- *
    * Social icons
@@ -4241,7 +4264,7 @@ a.skip-link {
   display: none;
 }
 .footer address {
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #bec5cc;
   text-align: center;
   width: 100%;
   font-size: 11px;
@@ -4390,6 +4413,7 @@ p.product-name a:hover {
 .products-grid .product-image img {
   width: 100%;
   height: auto;
+  box-shadow: 1px 2px 5px #C0D4D4;
 }
 .products-grid .product-image img:hidden {
   display: none;
@@ -4759,7 +4783,7 @@ p.product-name a:hover {
  * Catalog - List
  * ============================================ */
 .category-image {
-  border: 1px solid #cccccc;
+  border: 1px solid #bec5cc;
   padding: 10px;
 }
 .category-image img {
@@ -4795,9 +4819,10 @@ p.product-name a:hover {
   padding: 7px 10px 7px 24px;
   border-width: 1px;
   border-style: solid;
-  border-color: #cccccc;
+  border-color: #bec5cc;
   position: relative;
-  background-color: #f4f4f4;
+  /*background-color: rgba(0,0,0,0.04);*/
+  background: rgba(0,0,0,0.04);
   cursor: pointer;
 }
 .block-layered-nav .block-subtitle--filter:after {
@@ -4842,9 +4867,10 @@ p.product-name a:hover {
   padding: 7px 10px 7px 24px;
   border-width: 1px;
   border-style: solid;
-  border-color: #cccccc;
+  border-color: #bec5cc;
   position: relative;
-  background-color: #f4f4f4;
+  /*background-color: rgba(0,0,0,0.04);*/
+  background-color: rgba(0,0,0,0.04);
   display: block;
 }
 .block-layered-nav .block-content > dl > dt:after {
@@ -4869,10 +4895,11 @@ p.product-name a:hover {
   margin: 0;
   border-width: 0 1px;
   border-style: solid;
-  border-color: #cccccc;
+  border-color: #bec5cc;
 }
 .block-layered-nav .block-content > dl > dd:last-child {
   border-width: 0 1px 1px 1px;
+  background-color: rgba(255,255,255,0.33);
 }
 
 .block-layered-nav dl dd {
@@ -4996,7 +5023,7 @@ p.product-name a:hover {
   #narrow-by-list,
   #narrow-by-list2 {
     padding: 10px;
-    border: 1px solid #cccccc;
+    border: 1px solid #bec5cc;
     border-top: 0;
   }
 
@@ -5008,7 +5035,8 @@ p.product-name a:hover {
 
   .block-layered-nav dl ol > li > a {
     color: #636363;
-    background-color: #f4f4f4;
+    /*background-color: rgba(0,0,0,0.04);*/
+    background: rgba(0,0,0,0.04);
     padding: 5px 10px;
   }
   .block-layered-nav dl ol > li > a:hover {
@@ -5308,7 +5336,7 @@ p.product-name a:hover {
 .product-view .add-to-cart {
   padding-bottom: 3px;
   margin-bottom: 10px;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #bec5cc;
   display:none;
 }
 .product-view .add-to-cart .qty-wrapper,
@@ -5417,7 +5445,7 @@ p.product-name a:hover {
 .product-view .add-to-links a {
   padding: 2px 7px 2px 0px;
   margin-left: 7px;
-  border-right: 1px solid #cccccc;
+  border-right: 1px solid #bec5cc;
 }
 .product-view .add-to-links li:first-child a {
   margin-left: 0px;
@@ -5487,8 +5515,9 @@ p.product-name a:hover {
     display: block;
     width: 100%;
     position: relative;
-    border: 1px solid #cccccc;
-    background-color: #f4f4f4;
+    border: 1px solid #bec5cc;
+    /*background-color: rgba(0,0,0,0.04);*/
+    background: rgba(0,0,0,0.04);
   }
   .product-collateral .toggle-tabs li {
     float: left;
@@ -5512,8 +5541,8 @@ p.product-name a:hover {
     bottom: -1px;
   }
   .product-collateral .toggle-tabs li.current {
-    border-right: 1px solid #cccccc;
-    border-left: 1px solid #cccccc;
+    border-right: 1px solid #bec5cc;
+    border-left: 1px solid #bec5cc;
   }
   .product-collateral .toggle-tabs li.current > span {
     background-color: #FFFFFF;
@@ -5541,7 +5570,7 @@ p.product-name a:hover {
     width: 100%;
     display: none;
     padding: 15px;
-    border: 1px solid #cccccc;
+    border: 1px solid #bec5cc;
     border-top: 0;
   }
   .product-collateral > dl > dd.current {
@@ -5573,9 +5602,10 @@ p.product-name a:hover {
     padding: 7px 10px 7px 24px;
     border-width: 1px;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #bec5cc;
     position: relative;
-    background-color: #f4f4f4;
+    /*background-color: rgba(0,0,0,0.04);*/
+    background: rgba(0,0,0,0.04);
     display: block;
   }
   .product-collateral > dl > dt:after {
@@ -5600,7 +5630,7 @@ p.product-name a:hover {
     margin: 0;
     border-width: 0 1px;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #bec5cc;
   }
   .product-collateral > dl > dd:last-child {
     border-width: 0 1px 1px 1px;
@@ -5741,7 +5771,7 @@ p.product-name a:hover {
   width: 100%;
   margin: 10px 0 0;
   padding: 10px 15px 15px;
-  border: 1px solid #cccccc;
+  border: 1px solid #bec5cc;
   clear: both;
   position: relative;
 }
@@ -5864,9 +5894,10 @@ p.product-name a:hover {
 }
 
 .product-options-bottom {
-  background-color: #f4f4f4;
+  /*background-color: rgba(0,0,0,0.04);*/
+  background: rgba(0,0,0,0.04);
   padding: 15px 20px;
-  border: 1px solid #cccccc;
+  border: 1px solid #bec5cc;
   border-top: 0;
   margin-bottom: 10px;
 }
@@ -5894,7 +5925,7 @@ p.product-name a:hover {
     text-align: right;
     padding-bottom: 5px;
     margin-bottom: 10px;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #bec5cc;
   }
 }
 
@@ -6029,7 +6060,7 @@ p.product-name a:hover {
 
 .map-popup {
   background: #FFFFFF;
-  border: 5px solid #cccccc;
+  border: 5px solid #bec5cc;
   margin: 12px 0 0;
   position: absolute;
   text-align: left;
@@ -6244,8 +6275,9 @@ p.product-name a:hover {
 .cart-forms .giftcard,
 .cart-forms .shipping {
   padding: 10px;
-  background-color: #f4f4f4;
-  border: 1px solid #cccccc;
+  /*background-color: rgba(0,0,0,0.04);*/
+  background: rgba(0,0,0,0.04);
+  border: 1px solid #bec5cc;
 }
 
 .cart-table,
@@ -6805,7 +6837,7 @@ p.product-name a:hover {
   margin-left: 0;
 }
 .shipping #co-shipping-method-form .sp-methods dd label {
-  border: 1px solid #cccccc;
+  border: 1px solid #bec5cc;
   background-color: #ececec;
   min-width: 220px;
 }
@@ -7048,7 +7080,8 @@ p.product-name a:hover {
 
 /* Using .no-touch since touch devices emulate hover, thereby making steps look active that are not */
 .no-touch .opc .section.allow:not(.active) .step-title:hover {
-  background-color: #f4f4f4;
+  /*background-color: rgba(0,0,0,0.04);*/
+  background-color: rgba(0,0,0,0.04);
 }
 
 .opc .section.active .step-title {
@@ -7309,7 +7342,7 @@ body:not(.opc-has-progressed-from-login) .opc.opc-firststep-login .section#opc-l
 .block-progress {
   border: 0;
   margin: 0;
-  border-left: 1px solid #cccccc;
+  border-left: 1px solid #bec5cc;
   padding-left: 20px;
 }
 .block-progress .block-content {
@@ -7591,7 +7624,7 @@ body:not(.opc-has-progressed-from-login) .opc.opc-firststep-login .section#opc-l
 }
 
 .swatch-link {
-  border: 1px solid #cccccc;
+  border: 1px solid #bec5cc;
   margin: 0 0 3px;
 }
 .swatch-link img {
@@ -7625,7 +7658,8 @@ body:not(.opc-has-progressed-from-login) .opc.opc-firststep-login .section#opc-l
   border: 1px solid #fff;
   margin: 0;
   white-space: nowrap;
-  background: #f4f4f4;
+  /*background: rgba(0,0,0,0.04);*/
+  background-color: rgba(0,0,0,0.04);
 }
 
 .configurable-swatch-list {
@@ -7684,8 +7718,9 @@ body:not(.opc-has-progressed-from-login) .opc.opc-firststep-login .section#opc-l
   border-color: #3399cc;
 }
 #narrow-by-list dd .swatch-label {
-  background: #f4f4f4;
-  border: 1px solid #cccccc;
+  /*background: rgba(0,0,0,0.04);*/
+  background-color: rgba(0,0,0,0.04);
+  border: 1px solid #bec5cc;
   border-radius: 3px;
   display: block;
   float: left;
@@ -7726,7 +7761,7 @@ body:not(.opc-has-progressed-from-login) .opc.opc-firststep-login .section#opc-l
   margin: 0 0 0 3px;
 }
 .currently .swatch-link:hover {
-  border-color: #cccccc;
+  border-color: #bec5cc;
   cursor: default;
 }
 
@@ -7871,7 +7906,7 @@ body:not(.opc-has-progressed-from-login) .opc.opc-firststep-login .section#opc-l
 
 .remember-me-popup {
   display: none;
-  border: 1px solid #cccccc;
+  border: 1px solid #bec5cc;
   padding: 10px;
   position: relative;
 }
@@ -8034,7 +8069,7 @@ body.customer-account .sidebar .block-reorder ol#cart-sidebar-reorder p.product-
  * ============================================ */
 .dashboard .box-head {
   margin-top: 30px;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #bec5cc;
   padding-bottom: 7px;
 }
 .dashboard .box-head h2 {
@@ -8053,7 +8088,7 @@ body.customer-account .sidebar .block-reorder ol#cart-sidebar-reorder p.product-
 }
 .dashboard .box-account {
   padding-bottom: 40px;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #bec5cc;
   margin-bottom: 45px;
 }
 .dashboard .box-account p,
@@ -8627,8 +8662,8 @@ div.paypal-logo span > img {
   float: none;
 }
 #customer-reviews .review-heading {
-  border-top: 1px solid #cccccc;
-  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #bec5cc;
+  border-bottom: 1px solid #bec5cc;
   padding: 10px 0 5px;
 }
 #customer-reviews .review-heading:after {
@@ -8678,7 +8713,7 @@ div.paypal-logo span > img {
   width: 470px;
 }
 #customer-reviews .fieldset h4 {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #bec5cc;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
@@ -8706,13 +8741,13 @@ div.paypal-logo span > img {
   font-weight: normal;
 }
 #customer-reviews .fieldset .form-list textarea {
-  border: 1px solid #cccccc;
+  border: 1px solid #bec5cc;
   border-radius: 0;
   min-width: 100%;
   -webkit-appearance: none;
 }
 #customer-reviews .fieldset .form-list input {
-  border: 1px solid #cccccc;
+  border: 1px solid #bec5cc;
   border-radius: 0;
 }
 #customer-reviews .fieldset .form-list input[type="text"] {
@@ -8762,7 +8797,7 @@ div.paypal-logo span > img {
 }
 
 .review-summary-table {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #bec5cc;
   margin: 0 0 10px;
 }
 .review-summary-table thead {
@@ -8929,6 +8964,7 @@ div.paypal-logo span > img {
   width: 100%;
   margin: 10px 0;
   border: 1px solid #ededed;
+  box-shadow: 1px 2px 5px #C0D4D4;
 }
 .slideshow-container .slideshow {
   width: 100%;
@@ -8989,6 +9025,7 @@ div.paypal-logo span > img {
   border-radius: 1px;
   background-color: #FFFFFF;
   position: relative;
+  box-shadow: 1px 1px 5px #888888;
 }
 .slideshow-pager span:hover:before {
   background-color: #2e8ab8;
@@ -9666,7 +9703,8 @@ div.paypal-logo span > img {
   width: 100%;
 }
 .search-autocomplete ul li {
-  border-bottom: 1px solid #f4f4f4;
+  /*border-bottom: 1px solid rgba(0,0,0,0.04);*/
+  background-color: rgba(0,0,0,0.04);
   color: #3399cc;
   cursor: pointer;
   font-size: 12px;
@@ -9705,7 +9743,8 @@ div.paypal-logo span > img {
  * Search - Advanced
  * ============================================ */
 .advanced-search {
-  background: #f4f4f4;
+  /*background: rgba(0,0,0,0.04);*/
+  background-color: rgba(0,0,0,0.04);
   border: 1px solid #ededed;
   padding: 30px;
 }
@@ -9723,7 +9762,7 @@ div.paypal-logo span > img {
  * Account - Reviews
  * ============================================ */
 .product-review .product-img-box p.label {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #bec5cc;
   font-size: 16px;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   margin-top: 20px;
@@ -9734,7 +9773,7 @@ div.paypal-logo span > img {
   margin: 15px 0;
 }
 .product-review .product-details h2 {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #bec5cc;
   color: #3399CC;
   font-size: 16px;
   font-weight: 600;
@@ -9754,7 +9793,7 @@ div.paypal-logo span > img {
   text-transform: uppercase;
 }
 .product-review .ratings-description dt {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #bec5cc;
   font-size: 16px;
   font-weight: 400;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
@@ -9879,9 +9918,10 @@ div.paypal-logo span > img {
   padding: 7px 10px 7px 24px;
   border-width: 1px;
   border-style: solid;
-  border-color: #cccccc;
+  border-color: #bec5cc;
   position: relative;
-  background-color: #f4f4f4;
+  /*background-color: rgba(0,0,0,0.04);*/
+  background-color: rgba(0,0,0,0.04);
   display: block;
 }
 #accordion > dl > dt:after {
@@ -9906,7 +9946,7 @@ div.paypal-logo span > img {
   margin: 0;
   border-width: 0 1px;
   border-style: solid;
-  border-color: #cccccc;
+  border-color: #bec5cc;
 }
 #accordion > dl > dd:last-child {
   border-width: 0 1px 1px 1px;
@@ -10061,8 +10101,9 @@ div.paypal-logo span > img {
 }
 
 .product-tags {
-  background-color: #f4f4f4;
-  border: 1px solid #cccccc;
+  /*background-color: rgba(0,0,0,0.04);*/
+  background-color: rgba(0,0,0,0.04);
+  border: 1px solid #bec5cc;
   float: left;
   margin-bottom: 10px;
   padding: 5px 1% 10px;
@@ -10349,6 +10390,11 @@ body.customer-account .my-account .title-buttons.recurring-profiles-title-button
   width: 100%;
 }
 
+
+.pager li>a, .pager li>span {
+	border-color: rgb(183, 199, 214);
+}
+
 @media only screen and (min-width: 1199px) {
   .col2-left-layout .col-main .widget,
   .col2-right-layout .col-main .widget,
@@ -10508,10 +10554,12 @@ body[class*="checkout-multishipping-"] .checkout-progress > li {
   width: 20%;
   text-align: center;
   padding: 8px 1% 6px;
-  background: #f4f4f4;
+  /*background: rgba(0,0,0,0.04);*/
+
+  background-color: rgba(0,0,0,0.04);
   text-transform: uppercase;
-  border-bottom: 1px solid #cccccc;
-  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #bec5cc;
+  border-right: 1px solid #bec5cc;
   margin-bottom: 10px;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
@@ -10606,8 +10654,10 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
 .checkout-multishipping-overview .col-2 .box-title h4 {
   font-weight: normal;
   width: 100%;
-  background: #f4f4f4;
-  border-bottom: 1px solid #cccccc;
+  /*background: rgba(0,0,0,0.04);*/
+
+  background-color: rgba(0,0,0,0.04);
+  border-bottom: 1px solid #bec5cc;
   padding: 10px;
   font-size: 14px;
 }
@@ -10618,8 +10668,10 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
 .checkout-multishipping-overview .col-2 > h4 {
   font-weight: normal;
   width: 100%;
-  background: #f4f4f4;
-  border-bottom: 1px solid #cccccc;
+  /*background: rgba(0,0,0,0.04);*/
+
+  background-color: rgba(0,0,0,0.04);
+  border-bottom: 1px solid #bec5cc;
   padding: 10px;
   font-size: 14px;
 }
@@ -10723,4 +10775,41 @@ div.calendar table td.button {
   background: inherit;
   color: inherit;
   text-transform: none;
+}
+
+#alumni_table{
+	margin:auto;
+}
+
+#alumni_table td{
+	padding: 10px;
+}
+
+#poll-answers label{
+	color: #787EA0;
+}
+
+iframe#google-map-iframe{
+	width: 66vw;
+	height: 50vw;
+	min-width: 320px;
+	min-height:320px;
+	box-shadow: 1px 2px 5px #C0D4D4;
+}
+
+.footer table.hours{
+	font-size: 11px;
+	color: #B1945F;
+	margin:auto;
+}
+
+.footer table.hours thead *{
+	font-weight:bold;
+	font-size:1.1em;
+	text-align: center;
+}
+
+.footer table.hours td._X0c{
+	text-align: left;
+	padding-right: 5px;
 }
