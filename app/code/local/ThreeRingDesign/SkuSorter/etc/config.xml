@@ -1,0 +1,30 @@
+<config>
+
+	<!--
+	   The module's node contains basic
+	   information about each Magento module
+	-->
+	<modules>
+
+		<!--
+		  This must exactly match the namespace and module's folder
+		  names, with directory separators replaced by underscores
+		-->
+		<ThreeRingDesign_SkuSorter>
+			<!-- The version of our module, starting at 0.0.1 -->
+			<version>0.0.1</version>
+		</ThreeRingDesign_SkuSorter>
+	</modules>
+	<global>
+		<blocks>
+			<threeringdesign_skusorter>
+				<class>ThreeRingDesign_SkuSorter_Catalog_Block</class>
+			</threeringdesign_skusorter>
+			<product_widget_new>
+				<rewrite>
+					<block>ThreeRingDesign_SkuSorter_Catalog_Block_Product_Widget_New</block>
+				</rewrite>
+			</product_widget_new>
+		</blocks>
+	</global>
+</config>
