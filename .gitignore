@@ -1,5 +1,6 @@
 media/
 var/report/
 var/session/
+app/code/local/Pfay/
 *.mp3
 *.mp4
